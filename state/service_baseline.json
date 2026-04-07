@@ -1,0 +1,1174 @@
+{
+  "adpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "alg": {
+    "path": "c:\\windows\\system32\\alg.exe",
+    "start_mode": "manual"
+  },
+  "appidsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "appinfo": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "appreadiness": {
+    "path": "c:\\windows\\system32\\svchost.exe -k appreadiness -p",
+    "start_mode": "manual"
+  },
+  "appxsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wsappx -p",
+    "start_mode": "auto"
+  },
+  "apxsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "audioendpointbuilder": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "audiosrv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "autotimesvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k autotimesvc",
+    "start_mode": "manual"
+  },
+  "axinstsv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k axinstsvgroup",
+    "start_mode": "manual"
+  },
+  "bdesvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "bfe": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetworkfirewall -p",
+    "start_mode": "auto"
+  },
+  "bits": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "brlapi": {
+    "path": "c:\\windows\\brltty\\bin\\brltty.exe",
+    "start_mode": "manual"
+  },
+  "brokerinfrastructure": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "auto"
+  },
+  "btagservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+    "start_mode": "manual"
+  },
+  "bthavctpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceredirectionguard -p",
+    "start_mode": "manual"
+  },
+  "bthserv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "camsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k osprivacy -p",
+    "start_mode": "auto"
+  },
+  "cdpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "auto"
+  },
+  "certpropsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "manual"
+  },
+  "clicktorunsvc": {
+    "path": "\"c:\\program files\\common files\\microsoft shared\\clicktorun\\officeclicktorun.exe\" /service",
+    "start_mode": "auto"
+  },
+  "clipsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wsappx -p",
+    "start_mode": "manual"
+  },
+  "comsysapp": {
+    "path": "c:\\windows\\system32\\dllhost.exe /processid:{02d4b3f1-fd88-11d1-960d-00805fc79235}",
+    "start_mode": "manual"
+  },
+  "coremessagingregistrar": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+    "start_mode": "auto"
+  },
+  "cplspcon": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\iigd_dch.inf_amd64_b38f68fdfc88d52c\\intelcphdcpsvc.exe",
+    "start_mode": "auto"
+  },
+  "cryptsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "auto"
+  },
+  "dcomlaunch": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "auto"
+  },
+  "dcsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "defragsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k defragsvc",
+    "start_mode": "manual"
+  },
+  "deviceassociationservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "deviceinstall": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "manual"
+  },
+  "devquerybroker": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "dhcp": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "diagsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k diagnostics",
+    "start_mode": "manual"
+  },
+  "diagtrack": {
+    "path": "c:\\windows\\system32\\svchost.exe -k utcsvc -p",
+    "start_mode": "auto"
+  },
+  "dispbrokerdesktopsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "auto"
+  },
+  "displayenhancementservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "dmenrollmentsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "dmwappushservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "dnscache": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "auto"
+  },
+  "dosvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "auto"
+  },
+  "dot3svc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "dps": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+    "start_mode": "auto"
+  },
+  "dsmsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "dssvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "dusmsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p -s dusmsvc",
+    "start_mode": "auto"
+  },
+  "eaphost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "edgeupdate": {
+    "path": "\"c:\\program files (x86)\\microsoft\\edgeupdate\\microsoftedgeupdate.exe\" /svc",
+    "start_mode": "auto"
+  },
+  "edgeupdatem": {
+    "path": "\"c:\\program files (x86)\\microsoft\\edgeupdate\\microsoftedgeupdate.exe\" /medsvc",
+    "start_mode": "manual"
+  },
+  "efs": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "manual"
+  },
+  "embeddedmode": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "entappsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k appmodelredirectionguard -p",
+    "start_mode": "manual"
+  },
+  "esifsvc": {
+    "path": "\"c:\\windows\\system32\\driverstore\\filerepository\\dptf_cpu.inf_amd64_897ea327b3fe52f7\\esif_uf.exe\"",
+    "start_mode": "auto"
+  },
+  "eventlog": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "eventsystem": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceredirectionguard -p",
+    "start_mode": "auto"
+  },
+  "fdphost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "fdrespub": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "fhsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "filesynchelper": {
+    "path": "\"c:\\program files\\microsoft onedrive\\26.040.0301.0001\\filesynchelper.exe\"",
+    "start_mode": "manual"
+  },
+  "fontcache": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "auto"
+  },
+  "frameserver": {
+    "path": "c:\\windows\\system32\\svchost.exe -k camera",
+    "start_mode": "manual"
+  },
+  "frameservermonitor": {
+    "path": "c:\\windows\\system32\\svchost.exe -k cameramonitor",
+    "start_mode": "manual"
+  },
+  "fvsvc": {
+    "path": "\"c:\\program files\\nvidia corporation\\frameviewsdk\\nvfvsdksvc_x64.exe\" -service",
+    "start_mode": "manual"
+  },
+  "gameinputsvc": {
+    "path": "c:\\windows\\system32\\gameinputsvc.exe",
+    "start_mode": "manual"
+  },
+  "googlechromeelevationservice": {
+    "path": "\"c:\\program files\\google\\chrome\\application\\146.0.7680.178\\elevation_service.exe\"",
+    "start_mode": "manual"
+  },
+  "googleupdaterinternalservice148.0.7730.0": {
+    "path": "\"c:\\program files (x86)\\google\\googleupdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
+    "start_mode": "auto"
+  },
+  "googleupdaterservice148.0.7730.0": {
+    "path": "\"c:\\program files (x86)\\google\\googleupdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
+    "start_mode": "auto"
+  },
+  "gpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k gpsvcgroup",
+    "start_mode": "auto"
+  },
+  "graphicsperfsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k graphicsperfsvcgroup",
+    "start_mode": "manual"
+  },
+  "hidserv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "hns": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "hpatchmon": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "hvhost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "iastorafsservice": {
+    "path": "c:\\windows\\system32\\iastorafsservice.exe",
+    "start_mode": "manual"
+  },
+  "icssvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "igccservice": {
+    "path": "\"c:\\windows\\system32\\driverstore\\filerepository\\igcc_dch.inf_amd64_a687edda40db3316\\oneapp.igcc.winservice.exe\"",
+    "start_mode": "auto"
+  },
+  "igfxcuiservice2.0.0.0": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxcuiservicen.exe",
+    "start_mode": "auto"
+  },
+  "ikeext": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "imcontrollerservice": {
+    "path": "c:\\windows\\lenovo\\imcontroller\\service\\lenovo.modern.imcontroller.exe",
+    "start_mode": "auto"
+  },
+  "installservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "intel(r) capability licensing service tcp ip interface": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\iclsclient.inf_amd64_367008a610747d24\\lib\\socketheciserver.exe",
+    "start_mode": "manual"
+  },
+  "intel(r) tpm provisioning service": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\iclsclient.inf_amd64_367008a610747d24\\lib\\tpmprovisioningservice.exe",
+    "start_mode": "auto"
+  },
+  "intelaudioservice": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\intcoed.inf_amd64_6f0a892deb241071\\\\as\\\\ias\\\\intelaudioservice.exe",
+    "start_mode": "auto"
+  },
+  "inventorysvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k invsvcgroup -p",
+    "start_mode": "auto"
+  },
+  "iphlpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "ipxlatcfgsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "jhi_service": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\dal.inf_amd64_64d7fcfcde9b9c10\\jhi_service.exe",
+    "start_mode": "auto"
+  },
+  "keyiso": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "manual"
+  },
+  "ktmrm": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "lanmanserver": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "lanmanworkstation": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "auto"
+  },
+  "lenovofnandfunctionkeys": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\lenovoutilityservice.exe",
+    "start_mode": "auto"
+  },
+  "lenovovantageservice": {
+    "path": "\"c:\\program files (x86)\\lenovo\\vantageservice\\\\4.2601.21.0\\lenovovantageservice.exe\"",
+    "start_mode": "auto"
+  },
+  "lfsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+    "start_mode": "manual"
+  },
+  "licensemanager": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "lltdsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "lmhosts": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "localkdc": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "manual"
+  },
+  "lsm": {
+    "path": "",
+    "start_mode": "unknown"
+  },
+  "lxpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "manual"
+  },
+  "mapsbroker": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "auto"
+  },
+  "mcafee webadvisor": {
+    "path": "\"c:\\program files\\mcafee\\webadvisor\\servicehost.exe\"",
+    "start_mode": "auto"
+  },
+  "mcmsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k mcmsvc -p -s mcmsvc",
+    "start_mode": "manual"
+  },
+  "mcpmanagementservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k mcpmanagementservicegroup",
+    "start_mode": "manual"
+  },
+  "mdcoresvc": {
+    "path": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\mpdefendercoreservice.exe\"",
+    "start_mode": "auto"
+  },
+  "microsoftedgeelevationservice": {
+    "path": "\"c:\\program files (x86)\\microsoft\\edge\\application\\146.0.3856.97\\elevation_service.exe\"",
+    "start_mode": "manual"
+  },
+  "midisrv": {
+    "path": "c:\\windows\\system32\\midisrv.exe",
+    "start_mode": "manual"
+  },
+  "mpssvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetworkfirewall -p",
+    "start_mode": "auto"
+  },
+  "msdtc": {
+    "path": "c:\\windows\\system32\\msdtc.exe",
+    "start_mode": "manual"
+  },
+  "msiscsi": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "msiserver": {
+    "path": "c:\\windows\\system32\\msiexec.exe /v",
+    "start_mode": "manual"
+  },
+  "msmpilaunchsvc": {
+    "path": "\"c:\\program files\\microsoft mpi\\bin\\msmpilaunchsvc.exe\"",
+    "start_mode": "manual"
+  },
+  "mysql80": {
+    "path": "\"c:\\program files\\mysql\\mysql server 8.0\\bin\\mysqld.exe\" --defaults-file=\"c:\\programdata\\mysql\\mysql server 8.0\\my.ini\" mysql80",
+    "start_mode": "auto"
+  },
+  "nahimicservice": {
+    "path": "\"c:\\windows\\system32\\nahimicservice.exe\"",
+    "start_mode": "auto"
+  },
+  "naturalauthentication": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "ncasvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "ncbservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "ncdautosetup": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+    "start_mode": "manual"
+  },
+  "netlogon": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "manual"
+  },
+  "netman": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "netprofm": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netprofm -p",
+    "start_mode": "manual"
+  },
+  "netsetupsvc": {
+    "path": "",
+    "start_mode": "unknown"
+  },
+  "nettcpportsharing": {
+    "path": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\smsvchost.exe",
+    "start_mode": "disabled"
+  },
+  "ngcctnrsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "ngcsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "nlasvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netprofm -p",
+    "start_mode": "manual"
+  },
+  "nsi": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "auto"
+  },
+  "nvagent": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "manual"
+  },
+  "nvcontainerlocalsystem": {
+    "path": "\"c:\\program files\\nvidia corporation\\nvcontainer\\nvcontainer.exe\" -s nvcontainerlocalsystem -a -f \"c:\\programdata\\nvidia\\nvcontainerlocalsystem.log\" -l 3 -d \"c:\\program files\\nvidia corporation\\nvcontainer\\plugins\\localsystem\" -r -p 30000 -st \"c:\\program files\\nvidia corporation\\nvcontainer\\nvcontainertelemetryapi.dll\"",
+    "start_mode": "manual"
+  },
+  "nvdisplay.containerlocalsystem": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\nvlt.inf_amd64_56eae984f56a52e3\\display.nvcontainer\\nvdisplay.container.exe -s nvdisplay.containerlocalsystem -f c:\\programdata\\nvidia\\nvdisplay.containerlocalsystem.log -l 3 -d c:\\windows\\system32\\driverstore\\filerepository\\nvlt.inf_amd64_56eae984f56a52e3\\display.nvcontainer\\plugins\\localsystem -r -p 30000 -cfg nvdisplay.containerlocalsystem\\localsystem",
+    "start_mode": "auto"
+  },
+  "onedrive updater service": {
+    "path": "\"c:\\program files\\microsoft onedrive\\26.040.0301.0001\\onedriveupdaterservice.exe\"",
+    "start_mode": "manual"
+  },
+  "openvpnservice": {
+    "path": "\"c:\\program files\\openvpn\\bin\\openvpnserv2.exe\"",
+    "start_mode": "auto"
+  },
+  "openvpnserviceinteractive": {
+    "path": "\"c:\\program files\\openvpn\\bin\\openvpnserv.exe\"",
+    "start_mode": "auto"
+  },
+  "pcasvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "perceptionsimulation": {
+    "path": "c:\\windows\\system32\\perceptionsimulation\\perceptionsimulationservice.exe",
+    "start_mode": "manual"
+  },
+  "perfhost": {
+    "path": "c:\\windows\\syswow64\\perfhost.exe",
+    "start_mode": "manual"
+  },
+  "phonesvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "pla": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+    "start_mode": "manual"
+  },
+  "plugplay": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "manual"
+  },
+  "policyagent": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "power": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "auto"
+  },
+  "printdeviceconfigurationservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "printnotify": {
+    "path": "c:\\windows\\system32\\svchost.exe -k print",
+    "start_mode": "manual"
+  },
+  "printscanbrokerservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k printscanbrokerservice -p",
+    "start_mode": "manual"
+  },
+  "profsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k userprofileservice -p",
+    "start_mode": "auto"
+  },
+  "pushtoinstall": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "qwave": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "rasauto": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "rasman": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "manual"
+  },
+  "refsdedupsvc": {
+    "path": "c:\\windows\\system32\\refsdedupsvc.exe",
+    "start_mode": "manual"
+  },
+  "remoteaccess": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "disabled"
+  },
+  "remoteregistry": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "disabled"
+  },
+  "retaildemo": {
+    "path": "c:\\windows\\system32\\svchost.exe -k rdxgroup",
+    "start_mode": "manual"
+  },
+  "rmsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+    "start_mode": "manual"
+  },
+  "rpceptmapper": {
+    "path": "c:\\windows\\system32\\svchost.exe -k rpcss -p",
+    "start_mode": "auto"
+  },
+  "rpclocator": {
+    "path": "c:\\windows\\system32\\locator.exe",
+    "start_mode": "manual"
+  },
+  "rpcss": {
+    "path": "c:\\windows\\system32\\svchost.exe -k rpcss -p",
+    "start_mode": "auto"
+  },
+  "rstmwservice": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\iastorvd.inf_amd64_a5d1cbafba9d4a6c\\rstmwservice.exe",
+    "start_mode": "auto"
+  },
+  "rtkaudiouniversalservice": {
+    "path": "\"c:\\windows\\system32\\driverstore\\filerepository\\realtekservice.inf_amd64_4401706d277a86e0\\rtkauduservice64.exe\"",
+    "start_mode": "auto"
+  },
+  "samss": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "auto"
+  },
+  "scardsvr": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation",
+    "start_mode": "manual"
+  },
+  "scdeviceenum": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted",
+    "start_mode": "manual"
+  },
+  "schedule": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "scpolicysvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+    "start_mode": "manual"
+  },
+  "sdrsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k sdrsvc",
+    "start_mode": "manual"
+  },
+  "seclogon": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "securityhealthservice": {
+    "path": "c:\\windows\\system32\\securityhealthservice.exe",
+    "start_mode": "manual"
+  },
+  "semgrsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "sens": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+    "start_mode": "auto"
+  },
+  "sensordataservice": {
+    "path": "c:\\windows\\system32\\sensordataservice.exe",
+    "start_mode": "manual"
+  },
+  "sensorservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "sensrsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "sessionenv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "sharedaccess": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "shellhwdetection": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "shpamsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+    "start_mode": "disabled"
+  },
+  "smphost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k smphost",
+    "start_mode": "manual"
+  },
+  "smsrouter": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "snmptrap": {
+    "path": "c:\\windows\\system32\\snmptrap.exe",
+    "start_mode": "manual"
+  },
+  "spooler": {
+    "path": "c:\\windows\\system32\\spoolsv.exe",
+    "start_mode": "auto"
+  },
+  "sppsvc": {
+    "path": "c:\\windows\\system32\\sppsvc.exe",
+    "start_mode": "auto"
+  },
+  "ssdpsrv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "ssh-agent": {
+    "path": "c:\\windows\\system32\\openssh\\ssh-agent.exe",
+    "start_mode": "disabled"
+  },
+  "sstpsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "staterepository": {
+    "path": "c:\\windows\\system32\\svchost.exe -k appmodel -p",
+    "start_mode": "auto"
+  },
+  "stisvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k imgsvc",
+    "start_mode": "auto"
+  },
+  "storsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "svsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "swprv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k swprv",
+    "start_mode": "manual"
+  },
+  "sysmain": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "systemeventsbroker": {
+    "path": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+    "start_mode": "auto"
+  },
+  "tapisrv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "manual"
+  },
+  "termservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice",
+    "start_mode": "manual"
+  },
+  "textinputmanagementservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "themes": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "tieringengineservice": {
+    "path": "c:\\windows\\system32\\tieringengineservice.exe",
+    "start_mode": "manual"
+  },
+  "timebrokersvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "tokenbroker": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "trkwks": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "troubleshootingsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "trustedinstaller": {
+    "path": "c:\\windows\\servicing\\trustedinstaller.exe",
+    "start_mode": "manual"
+  },
+  "tzautoupdate": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "disabled"
+  },
+  "udcservice": {
+    "path": "c:\\windows\\system32\\drivers\\lenovo\\udc\\service\\udclientservice.exe",
+    "start_mode": "auto"
+  },
+  "umrdpservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "upnphost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "usermanager": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "usosvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "vaultsvc": {
+    "path": "c:\\windows\\system32\\lsass.exe",
+    "start_mode": "manual"
+  },
+  "vboxsds": {
+    "path": "\"c:\\program files\\oracle\\virtualbox\\vboxsds.exe\"",
+    "start_mode": "manual"
+  },
+  "vds": {
+    "path": "c:\\windows\\system32\\vds.exe",
+    "start_mode": "manual"
+  },
+  "vmcompute": {
+    "path": "c:\\windows\\system32\\vmcompute.exe",
+    "start_mode": "manual"
+  },
+  "vmicguestinterface": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vmicheartbeat": {
+    "path": "c:\\windows\\system32\\svchost.exe -k icservice -p",
+    "start_mode": "manual"
+  },
+  "vmickvpexchange": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vmicrdv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k icservice -p",
+    "start_mode": "manual"
+  },
+  "vmicshutdown": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vmictimesync": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vmicvmsession": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vmicvss": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "vss": {
+    "path": "c:\\windows\\system32\\vssvc.exe",
+    "start_mode": "manual"
+  },
+  "w32time": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice",
+    "start_mode": "manual"
+  },
+  "waasmedicsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wusvcs -p",
+    "start_mode": "manual"
+  },
+  "walletservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k appmodel -p",
+    "start_mode": "manual"
+  },
+  "warpjitsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+    "start_mode": "manual"
+  },
+  "wbengine": {
+    "path": "\"c:\\windows\\system32\\wbengine.exe\"",
+    "start_mode": "manual"
+  },
+  "wbiosrvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wbiosvcgroup",
+    "start_mode": "manual"
+  },
+  "wcmsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p -s wcmsvc",
+    "start_mode": "auto"
+  },
+  "wcncsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+    "start_mode": "manual"
+  },
+  "wdiservicehost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "wdisystemhost": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "wdnissvc": {
+    "path": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\nissrv.exe\"",
+    "start_mode": "manual"
+  },
+  "webclient": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "webthreatdefsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k webthreatdefense -p",
+    "start_mode": "manual"
+  },
+  "wecsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "manual"
+  },
+  "wephostsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wephostsvcgroup",
+    "start_mode": "manual"
+  },
+  "wercplsupport": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "wersvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wersvcgroup",
+    "start_mode": "manual"
+  },
+  "wfdsconmgrsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "whesvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k whesvc -p",
+    "start_mode": "auto"
+  },
+  "wiarpc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "windefend": {
+    "path": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\msmpeng.exe\"",
+    "start_mode": "auto"
+  },
+  "winhttpautoproxysvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicehttp -p",
+    "start_mode": "manual"
+  },
+  "winmgmt": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "winrm": {
+    "path": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+    "start_mode": "manual"
+  },
+  "wisvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "wlansvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "wlidsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "wlpasvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "wmansvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "wmiapsrv": {
+    "path": "c:\\windows\\system32\\wbem\\wmiapsrv.exe",
+    "start_mode": "manual"
+  },
+  "wmiregistrationservice": {
+    "path": "c:\\windows\\system32\\driverstore\\filerepository\\mewmiprov.inf_amd64_d51901c26227fb29\\wmiregistrationservice.exe",
+    "start_mode": "auto"
+  },
+  "wmpnetworksvc": {
+    "path": "\"c:\\program files\\windows media player\\wmpnetwk.exe\"",
+    "start_mode": "manual"
+  },
+  "workfolderssvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "wpcmonsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice",
+    "start_mode": "manual"
+  },
+  "wpdbusenum": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted",
+    "start_mode": "manual"
+  },
+  "wpnservice": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "auto"
+  },
+  "wsaifabricsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wsaifabricsvcgroup -p",
+    "start_mode": "auto"
+  },
+  "wsaservice": {
+    "path": "\"c:\\program files\\windowsapps\\microsoftcorporationii.windowssubsystemforandroid_2407.40000.4.0_x64__8wekyb3d8bbwe\\wsaservice\\wsaservice.exe\"",
+    "start_mode": "manual"
+  },
+  "wscsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "wsearch": {
+    "path": "c:\\windows\\system32\\searchindexer.exe /embedding",
+    "start_mode": "auto"
+  },
+  "wuauserv": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "wuqisvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k wuqisvcgroup -p",
+    "start_mode": "manual"
+  },
+  "wwansvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "manual"
+  },
+  "xblauthmanager": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+    "start_mode": "manual"
+  },
+  "xblgamesave": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "xboxgipsvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "xboxnetapisvc": {
+    "path": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+    "start_mode": "manual"
+  },
+  "aarsvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k aarsvcgroup -p",
+    "start_mode": "manual"
+  },
+  "bcastdvruserservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k bcastdvruserservice",
+    "start_mode": "manual"
+  },
+  "bluetoothuserservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k bthappgroup -p",
+    "start_mode": "manual"
+  },
+  "captureservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "cbdhsvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k clipboardsvcgroup -p",
+    "start_mode": "auto"
+  },
+  "cdpusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "auto"
+  },
+  "cloudbackuprestoresvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "manual"
+  },
+  "consentuxusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+    "start_mode": "manual"
+  },
+  "credentialenrollmentmanagerusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\credentialenrollmentmanager.exe",
+    "start_mode": "manual"
+  },
+  "deviceassociationbrokersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k devicesflow -p",
+    "start_mode": "manual"
+  },
+  "devicepickerusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+    "start_mode": "manual"
+  },
+  "devicesflowusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+    "start_mode": "manual"
+  },
+  "messagingservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "manual"
+  },
+  "npsmsvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+    "start_mode": "manual"
+  },
+  "onesyncsvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "auto"
+  },
+  "p9rdrservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k p9rdrservice -p",
+    "start_mode": "manual"
+  },
+  "penservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k penservice",
+    "start_mode": "manual"
+  },
+  "pimindexmaintenancesvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "manual"
+  },
+  "printworkflowusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k printworkflow",
+    "start_mode": "manual"
+  },
+  "udkusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k udksvcgroup",
+    "start_mode": "manual"
+  },
+  "unistoresvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "manual"
+  },
+  "userdatasvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "manual"
+  },
+  "webthreatdefusersvc_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+    "start_mode": "auto"
+  },
+  "wpnuserservice_b7faf9f": {
+    "path": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+    "start_mode": "auto"
+  }
+}

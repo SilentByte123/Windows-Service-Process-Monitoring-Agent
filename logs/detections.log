@@ -1,0 +1,639 @@
+2026-04-07 19:53:54,501 | INFO | Service baseline updated: state\service_baseline.json
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: system idle process
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: registry
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: lsaiso.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: fontdrvhost.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: nvdisplay.container.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: appprovisioningplugin.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: intelcphdcpsvc.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: searchhost.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: aggregatorhost.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: igfxcuiservicen.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: sihost.exe
+2026-04-07 19:53:54,578 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: nvdisplay.container.exe
+2026-04-07 19:53:54,578 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:53:54,578 | WARNING | MEDIUM | unauthorized process: memcompression
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: openconsole.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: windowsterminal.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: crossdeviceresume.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wmiprvse.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wlanext.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: oneapp.igcc.winservice.exe
+2026-04-07 19:53:54,584 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovo.modern.imcontroller.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: esif_uf.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: intelaudioservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: jhi_service.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovoutilityservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovovantageservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: nahimicservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: mysqld.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: openvpnserv2.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: openvpnserv.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: nahimicnotifsys.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: rtkauduservice64.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: rstmwservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: udclientservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: mpdefendercoreservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wmiregistrationservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: msmpeng.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: mysqld.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: servicehost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: nahimic3.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: securityhealthservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: officeclicktorun.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: castsrv.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: igfxemn.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: windowspackagemanagerserver.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: onedrive.sync.service.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: nissrv.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: textinputhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: uihost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: time.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: openconsole.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: backgroundtaskhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:53:54,584 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: pet.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovovantage-(genericmessagingaddin).exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: widgetservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:53:54,584 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: onenotem.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: copilot.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: wmiprvse.exe
+2026-04-07 19:53:54,584 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe
+2026-04-07 19:53:54,584 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: appactions.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: fontdrvhost.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: crossdeviceservice.exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe
+2026-04-07 19:53:54,584 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: lenovovantage-(vantagecoreaddin).exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: widgetboard.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,593 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: wmiprvse.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,593 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe
+2026-04-07 19:53:54,593 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: shellhost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: fnhotkeyutility.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: messagingplugin.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: useroobebroker.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: searchprotocolhost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: lockapp.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: nahimicsvc32.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: microsoftstartfeedprovider.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: sdxhelper.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: wmiapsrv.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: openvpn-gui.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: whatsapp.root.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: searchindexer.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: batterywidgethost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: locator.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: dllhost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: ctfmon.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: startmenuexperiencehost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: shellexperiencehost.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: applicationframehost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: backgroundtaskhost.exe
+2026-04-07 19:53:54,596 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: cmd.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: nahimicsvc64.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: fnhotkeycapslknumlk.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Aggregated Data Platform Service
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Application Layer Gateway Service
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Application Identity
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Application Information
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: App Readiness
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: AppX Deployment Service (AppXSVC)
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Windows Virtual Audio Device Proxy Service
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Windows Audio Endpoint Builder
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Windows Audio
+2026-04-07 19:53:54,604 | WARNING | MEDIUM | New service detected since baseline: Cellular Time
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: ActiveX Installer (AxInstSV)
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: BitLocker Drive Encryption Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Base Filtering Engine
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Background Intelligent Transfer Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: brlapi
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Background Tasks Infrastructure Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Bluetooth Audio Gateway Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: AVCTP service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Bluetooth Support Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Capability Access Manager Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Connected Devices Platform Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Certificate Propagation
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Microsoft Office Click-to-Run Service
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Client License Service (ClipSVC)
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: COM+ System Application
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: CoreMessaging
+2026-04-07 19:53:54,608 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Content Protection HDCP Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Cryptographic Services
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: DCOM Server Process Launcher
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Declared Configuration(DC) service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Optimize drives
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Device Association Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Device Install Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: DevQuery Background Discovery Broker
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: DHCP Client
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Diagnostic Execution Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Connected User Experiences and Telemetry
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Display Policy Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Display Enhancement Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Device Management Enrollment Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Device Management Wireless Application Protocol (WAP) Push message Routing Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: DNS Client
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Delivery Optimization
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Wired AutoConfig
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Diagnostic Policy Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Device Setup Manager
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Data Sharing Service
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Data Usage
+2026-04-07 19:53:54,609 | WARNING | MEDIUM | New service detected since baseline: Extensible Authentication Protocol
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Microsoft Edge Update Service (edgeupdate)
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Microsoft Edge Update Service (edgeupdatem)
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Encrypting File System (EFS)
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Embedded Mode
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Enterprise App Management Service
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Dynamic Tuning service
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Windows Event Log
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: COM+ Event System
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Function Discovery Provider Host
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Function Discovery Resource Publication
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: File History Service
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: FileSyncHelper
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Windows Font Cache Service
+2026-04-07 19:53:54,611 | WARNING | MEDIUM | New service detected since baseline: Windows Camera Frame Server
+2026-04-07 19:53:54,613 | WARNING | MEDIUM | New service detected since baseline: Windows Camera Frame Server Monitor
+2026-04-07 19:53:54,613 | WARNING | MEDIUM | New service detected since baseline: NVIDIA FrameView SDK service
+2026-04-07 19:53:54,613 | WARNING | MEDIUM | New service detected since baseline: GameInput Service
+2026-04-07 19:53:54,613 | WARNING | MEDIUM | New service detected since baseline: Google Chrome Elevation Service (GoogleChromeElevationService)
+2026-04-07 19:53:54,613 | WARNING | MEDIUM | New service detected since baseline: Google Updater Internal Service (GoogleUpdaterInternalService148.0.7730.0)
+2026-04-07 19:53:54,614 | WARNING | MEDIUM | New service detected since baseline: Google Updater Service (GoogleUpdaterService148.0.7730.0)
+2026-04-07 19:53:54,614 | WARNING | MEDIUM | New service detected since baseline: Group Policy Client
+2026-04-07 19:53:54,614 | WARNING | MEDIUM | New service detected since baseline: GraphicsPerfSvc
+2026-04-07 19:53:54,614 | WARNING | MEDIUM | New service detected since baseline: Human Interface Device Service
+2026-04-07 19:53:54,614 | WARNING | MEDIUM | New service detected since baseline: Host Network Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: Hotpatch Monitoring Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: HV Host Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Optane(TM) Memory Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: Windows Mobile Hotspot Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Graphics Command Center Service
+2026-04-07 19:53:54,616 | WARNING | MEDIUM | New service detected since baseline: Intel(R) HD Graphics Control Panel Service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: IKE and AuthIP IPsec Keying Modules
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: System Interface Foundation Service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: Microsoft Store Install Service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Capability Licensing Service TCP IP Interface
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: Intel(R) TPM Provisioning Service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Audio Service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: Inventory and Compatibility Appraisal service
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: IP Helper
+2026-04-07 19:53:54,618 | WARNING | MEDIUM | New service detected since baseline: IP Translation Configuration Service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Dynamic Application Loader Host Interface Service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: CNG Key Isolation
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: KtmRm for Distributed Transaction Coordinator
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Server
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Workstation
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Lenovo Fn and function keys service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: LenovoVantageService
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Geolocation Service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Windows License Manager Service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Link-Layer Topology Discovery Mapper
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: TCP/IP NetBIOS Helper
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Kerberos Local Key Distribution Center
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: LSM
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Language Experience Service
+2026-04-07 19:53:54,620 | WARNING | MEDIUM | New service detected since baseline: Downloaded Maps Manager
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: McAfee WebAdvisor
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Mobile Connectivity Management Service
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: McpManagementService
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Microsoft Defender Core Service
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Windows MIDI Service
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Windows Defender Firewall
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Distributed Transaction Coordinator
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Microsoft iSCSI Initiator Service
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: Windows Installer
+2026-04-07 19:53:54,623 | WARNING | MEDIUM | New service detected since baseline: MS-MPI Launch Service
+2026-04-07 19:53:54,630 | WARNING | MEDIUM | New service detected since baseline: MySQL80
+2026-04-07 19:53:54,630 | WARNING | MEDIUM | New service detected since baseline: Nahimic service
+2026-04-07 19:53:54,630 | WARNING | MEDIUM | New service detected since baseline: Natural Authentication
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Connectivity Assistant
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Connection Broker
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Connected Devices Auto-Setup
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Netlogon
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Connections
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network List Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: NetSetupSvc
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Net.Tcp Port Sharing Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Microsoft Passport Container
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Microsoft Passport
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Location Awareness
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Store Interface Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Network Virtualization Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: NVIDIA LocalSystem Container
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: NVIDIA Display Container LS
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: OneDrive Updater Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: OpenVPNService
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: OpenVPN Interactive Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Program Compatibility Assistant Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Windows Perception Simulation Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Performance Counter DLL Host
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Phone Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Performance Logs & Alerts
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Plug and Play
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: IPsec Policy Agent
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Power
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Print Device Configuration Service
+2026-04-07 19:53:54,631 | WARNING | MEDIUM | New service detected since baseline: Printer Extensions and Notifications
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: PrintScanBrokerService
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: User Profile Service
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Windows PushToInstall Service
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Quality Windows Audio Video Experience
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Remote Access Auto Connection Manager
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Remote Access Connection Manager
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: ReFS Dedup Service
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Routing and Remote Access
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Remote Registry
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Retail Demo Service
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: Radio Management Service
+2026-04-07 19:53:54,636 | WARNING | MEDIUM | New service detected since baseline: RPC Endpoint Mapper
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Remote Procedure Call (RPC) Locator
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Remote Procedure Call (RPC)
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Storage Middleware Service
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Realtek Audio Universal Service
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Security Accounts Manager
+2026-04-07 19:53:54,638 | WARNING | MEDIUM | New service detected since baseline: Smart Card
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Smart Card Device Enumeration Service
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Task Scheduler
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Smart Card Removal Policy
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Windows Backup
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Secondary Logon
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Windows Security Service
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Payments and NFC/SE Manager
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: System Event Notification Service
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Sensor Data Service
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Sensor Service
+2026-04-07 19:53:54,639 | WARNING | MEDIUM | New service detected since baseline: Sensor Monitoring Service
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Remote Desktop Configuration
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Internet Connection Sharing (ICS)
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Shell Hardware Detection
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Shared PC Account Manager
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Microsoft Storage Spaces SMP
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Microsoft Windows SMS Router Service.
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: SNMP Trap
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Print Spooler
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Software Protection
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: SSDP Discovery
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: OpenSSH Authentication Agent
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Secure Socket Tunneling Protocol Service
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: State Repository Service
+2026-04-07 19:53:54,641 | WARNING | MEDIUM | New service detected since baseline: Windows Image Acquisition (WIA)
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Storage Service
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Spot Verifier
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Microsoft Software Shadow Copy Provider
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: SysMain
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: System Events Broker
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Telephony
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Remote Desktop Services
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Text Input Management Service
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Themes
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Storage Tiers Management
+2026-04-07 19:53:54,643 | WARNING | MEDIUM | New service detected since baseline: Time Broker
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Web Account Manager
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Distributed Link Tracking Client
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Recommended Troubleshooting Service
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Windows Modules Installer
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Auto Time Zone Updater
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Universal Device Client Service
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: Remote Desktop Services UserMode Port Redirector
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: UPnP Device Host
+2026-04-07 19:53:54,645 | WARNING | MEDIUM | New service detected since baseline: User Manager
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Update Orchestrator Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Credential Manager
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: VirtualBox system service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Virtual Disk
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Host Compute Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Guest Service Interface
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Heartbeat Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Data Exchange Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Remote Desktop Virtualization Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Guest Shutdown Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Time Synchronization Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V PowerShell Direct Service
+2026-04-07 19:53:54,647 | WARNING | MEDIUM | New service detected since baseline: Hyper-V Volume Shadow Copy Requestor
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Volume Shadow Copy
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Time
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: WaaSMedicSvc
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: WalletService
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Warp JIT Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Block Level Backup Engine Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Biometric Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Connection Manager
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Connect Now - Config Registrar
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Diagnostic Service Host
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Diagnostic System Host
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Microsoft Defender Antivirus Network Inspection Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: WebClient
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Web Threat Defense Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Event Collector
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Encryption Provider Host Service
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Problem Reports Control Panel Support
+2026-04-07 19:53:54,649 | WARNING | MEDIUM | New service detected since baseline: Windows Error Reporting Service
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Wi-Fi Direct Services Connection Manager Service
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Windows Health and Optimized Experiences
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Still Image Acquisition Events
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Microsoft Defender Antivirus Service
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: WinHTTP Web Proxy Auto-Discovery Service
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Windows Management Instrumentation
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Windows Remote Management (WS-Management)
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Windows Insider Service
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: WLAN AutoConfig
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Microsoft Account Sign-in Assistant
+2026-04-07 19:53:54,651 | WARNING | MEDIUM | New service detected since baseline: Local Profile Assistant Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Management Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: WMI Performance Adapter
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Intel(R) Management Engine WMI Provider Registration
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Media Player Network Sharing Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Work Folders
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Parental Controls
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Portable Device Enumerator Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Push Notifications System Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: WSAIFabricSvc
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Subsystem for Android™
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Security Center
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Search
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Windows Update
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Microsoft Usage and Quality Insights
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: WWAN AutoConfig
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Xbox Live Auth Manager
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Xbox Live Game Save
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Xbox Accessory Management Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Xbox Live Networking Service
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Agent Activation Runtime_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: GameDVR and Broadcast User Service_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Bluetooth User Support Service_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: CaptureService_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Clipboard User Service_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Connected Devices Platform User Service_b7faf9f
+2026-04-07 19:53:54,653 | WARNING | MEDIUM | New service detected since baseline: Cloud Backup and Restore Service_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: ConsentUX User Service_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: CredentialEnrollmentManagerUserSvc_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: DeviceAssociationBroker_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: DevicePicker_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: DevicesFlow_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: MessagingService_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: Now Playing Session Manager Service_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: Sync Host_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: P9RdrService_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: PenService_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: Contact Data_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: PrintWorkflow_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: Udk User Service_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: User Data Storage_b7faf9f
+2026-04-07 19:53:54,657 | WARNING | MEDIUM | New service detected since baseline: User Data Access_b7faf9f
+2026-04-07 19:53:54,659 | WARNING | MEDIUM | New service detected since baseline: Web Threat Defense User Service_b7faf9f
+2026-04-07 19:53:54,659 | WARNING | MEDIUM | New service detected since baseline: Windows Push Notifications User Service_b7faf9f
+2026-04-07 19:53:54,659 | INFO | Sweep finished in 11.07s | alerts: 465 | report: report-20260407-142354.txt
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: system idle process
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: registry
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lsaiso.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: fontdrvhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nvdisplay.container.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: appprovisioningplugin.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: intelcphdcpsvc.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: searchhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: aggregatorhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: igfxcuiservicen.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: sihost.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nvdisplay.container.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: memcompression
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: openconsole.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: windowsterminal.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: crossdeviceresume.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wmiprvse.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wlanext.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: oneapp.igcc.winservice.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovo.modern.imcontroller.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: esif_uf.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: intelaudioservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: jhi_service.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovoutilityservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovovantageservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nahimicservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: mysqld.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: openvpnserv2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: openvpnserv.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nahimicnotifsys.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: rtkauduservice64.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: rstmwservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: udclientservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: mpdefendercoreservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wmiregistrationservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msmpeng.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: mysqld.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: servicehost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nahimic3.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: securityhealthservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: officeclicktorun.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: castsrv.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wudfhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: igfxemn.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: windowspackagemanagerserver.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: onedrive.sync.service.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: nissrv.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: textinputhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: uihost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: time.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: openconsole.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: backgroundtaskhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: pet.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovovantage-(genericmessagingaddin).exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: widgetservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: onenotem.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: copilot.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: appactions.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: fontdrvhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: crossdeviceservice.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovovantage-(vantagecoreaddin).exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: widgetboard.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: wmiprvse.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: shellhost.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: fnhotkeyutility.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: messagingplugin.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: useroobebroker.exe
+2026-04-07 19:54:23,806 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,806 | WARNING | MEDIUM | unauthorized process: searchprotocolhost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: lockapp.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: nahimicsvc32.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: microsoftstartfeedprovider.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: sdxhelper.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: wmiapsrv.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: openvpn-gui.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: whatsapp.root.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: unsecapp.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: searchindexer.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: batterywidgethost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: locator.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: dllhost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: ctfmon.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: startmenuexperiencehost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: shellexperiencehost.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: python.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chrome.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | HIGH | unauthorized process in user-writable path: code.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: applicationframehost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: backgroundtaskhost.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: cmd.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: msedgewebview2.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: nahimicsvc64.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: fnhotkeycapslknumlk.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: codex.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: chatgpt.exe
+2026-04-07 19:54:23,822 | WARNING | MEDIUM | unauthorized process: powershell.exe
+2026-04-07 19:54:23,822 | INFO | Sweep finished in 9.78s | alerts: 171 | report: report-20260407-142423.txt

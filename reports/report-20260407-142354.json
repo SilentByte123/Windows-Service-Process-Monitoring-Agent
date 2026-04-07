@@ -1,0 +1,3441 @@
+{
+  "generated_utc": "20260407-142354",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 11.07,
+    "process_count": 304,
+    "alerts": 465
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: system idle process",
+      "process": "system idle process (PID 0)",
+      "path": "",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: registry",
+      "process": "registry (PID 184)",
+      "path": "Registry",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 1220)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lsaiso.exe",
+      "process": "lsaiso.exe (PID 1308)",
+      "path": "C:\\Windows\\System32\\LsaIso.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fontdrvhost.exe",
+      "process": "fontdrvhost.exe (PID 1492)",
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 1556)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 1568)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 1804)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nvdisplay.container.exe",
+      "process": "nvdisplay.container.exe (PID 1836)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_56eae984f56a52e3\\Display.NvContainer\\NVDisplay.Container.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: appprovisioningplugin.exe",
+      "process": "appprovisioningplugin.exe (PID 1924)",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\AppProvisioningPlugin.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: intelcphdcpsvc.exe",
+      "process": "intelcphdcpsvc.exe (PID 2156)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b38f68fdfc88d52c\\IntelCpHDCPSvc.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: searchhost.exe",
+      "process": "searchhost.exe (PID 2200)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 2332)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: aggregatorhost.exe",
+      "process": "aggregatorhost.exe (PID 2476)",
+      "path": "C:\\Windows\\System32\\AggregatorHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: igfxcuiservicen.exe",
+      "process": "igfxcuiservicen.exe (PID 2748)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxCUIServiceN.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 2764)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: sihost.exe",
+      "process": "sihost.exe (PID 2840)",
+      "path": "C:\\Windows\\System32\\sihost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 2952)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nvdisplay.container.exe",
+      "process": "nvdisplay.container.exe (PID 3032)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_56eae984f56a52e3\\Display.NvContainer\\NVDisplay.Container.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 3188)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 3260)",
+      "path": "E:\\project1\\Windows-Service-Process-Monitoring-Agent\\.venv\\Scripts\\python.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: memcompression",
+      "process": "memcompression (PID 3296)",
+      "path": "MemCompression",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openconsole.exe",
+      "process": "openconsole.exe (PID 3936)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: windowsterminal.exe",
+      "process": "windowsterminal.exe (PID 4204)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: crossdeviceresume.exe",
+      "process": "crossdeviceresume.exe (PID 4328)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiprvse.exe",
+      "process": "wmiprvse.exe (PID 4380)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wlanext.exe",
+      "process": "wlanext.exe (PID 4528)",
+      "path": "C:\\Windows\\System32\\wlanext.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: oneapp.igcc.winservice.exe",
+      "process": "oneapp.igcc.winservice.exe (PID 4532)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_a687edda40db3316\\OneApp.IGCC.WinService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 4548)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovo.modern.imcontroller.exe",
+      "process": "lenovo.modern.imcontroller.exe (PID 4552)",
+      "path": "C:\\Windows\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: esif_uf.exe",
+      "process": "esif_uf.exe (PID 4560)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_897ea327b3fe52f7\\esif_uf.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 4572)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: intelaudioservice.exe",
+      "process": "intelaudioservice.exe (PID 4632)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_6f0a892deb241071\\AS\\IAS\\IntelAudioService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: jhi_service.exe",
+      "process": "jhi_service.exe (PID 4656)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_64d7fcfcde9b9c10\\jhi_service.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovoutilityservice.exe",
+      "process": "lenovoutilityservice.exe (PID 4676)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantageservice.exe",
+      "process": "lenovovantageservice.exe (PID 4696)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantageService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicservice.exe",
+      "process": "nahimicservice.exe (PID 4748)",
+      "path": "C:\\Windows\\System32\\NahimicService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mysqld.exe",
+      "process": "mysqld.exe (PID 4756)",
+      "path": "C:\\Program Files\\MYSQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpnserv2.exe",
+      "process": "openvpnserv2.exe (PID 4832)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpnserv2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpnserv.exe",
+      "process": "openvpnserv.exe (PID 4848)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpnserv.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicnotifsys.exe",
+      "process": "nahimicnotifsys.exe (PID 4872)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\NhNotifSys\\nahimic\\nahimicNotifSys.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: rtkauduservice64.exe",
+      "process": "rtkauduservice64.exe (PID 4928)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_4401706d277a86e0\\RtkAudUService64.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: rstmwservice.exe",
+      "process": "rstmwservice.exe (PID 4944)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorvd.inf_amd64_a5d1cbafba9d4a6c\\RstMwService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: udclientservice.exe",
+      "process": "udclientservice.exe (PID 4964)",
+      "path": "C:\\Windows\\System32\\drivers\\Lenovo\\udc\\Service\\UDClientService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mpdefendercoreservice.exe",
+      "process": "mpdefendercoreservice.exe (PID 4980)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\MpDefenderCoreService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiregistrationservice.exe",
+      "process": "wmiregistrationservice.exe (PID 5080)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\WMIRegistrationService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msmpeng.exe",
+      "process": "msmpeng.exe (PID 5108)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\MsMpEng.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mysqld.exe",
+      "process": "mysqld.exe (PID 5268)",
+      "path": "C:\\Program Files\\MYSQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 5352)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: servicehost.exe",
+      "process": "servicehost.exe (PID 5904)",
+      "path": "C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 6116)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimic3.exe",
+      "process": "nahimic3.exe (PID 6136)",
+      "path": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.9.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 6168)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: securityhealthservice.exe",
+      "process": "securityhealthservice.exe (PID 6364)",
+      "path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 6368)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: officeclicktorun.exe",
+      "process": "officeclicktorun.exe (PID 6556)",
+      "path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 6912)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: castsrv.exe",
+      "process": "castsrv.exe (PID 7052)",
+      "path": "C:\\Windows\\System32\\CastSrv.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 7164)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 7184)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 7200)",
+      "path": "C:\\ProgramData\\anaconda3\\python.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 7328)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: igfxemn.exe",
+      "process": "igfxemn.exe (PID 7608)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxEMN.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: windowspackagemanagerserver.exe",
+      "process": "windowspackagemanagerserver.exe (PID 7932)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.28.220.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: onedrive.sync.service.exe",
+      "process": "onedrive.sync.service.exe (PID 7996)",
+      "path": "C:\\Program Files\\Microsoft OneDrive\\26.040.0301.0001\\OneDrive.Sync.Service.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nissrv.exe",
+      "process": "nissrv.exe (PID 8156)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\NisSrv.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: textinputhost.exe",
+      "process": "textinputhost.exe (PID 8240)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 8388)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 8496)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: uihost.exe",
+      "process": "uihost.exe (PID 8612)",
+      "path": "C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: time.exe",
+      "process": "time.exe (PID 8676)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe\\Time.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 8908)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openconsole.exe",
+      "process": "openconsole.exe (PID 8936)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: backgroundtaskhost.exe",
+      "process": "backgroundtaskhost.exe (PID 9192)",
+      "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 9404)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 9492)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: pet.exe",
+      "process": "pet.exe (PID 9592)",
+      "path": "C:\\Users\\Jyoti\\.vscode\\extensions\\ms-python.python-2026.5.2026032701-win32-x64\\python-env-tools\\bin\\pet.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 9800)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 9864)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(genericmessagingaddin).exe",
+      "process": "lenovovantage-(genericmessagingaddin).exe (PID 10128)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(GenericMessagingAddin).exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 10148)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: widgetservice.exe",
+      "process": "widgetservice.exe (PID 10372)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 10524)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 10580)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 10620)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 11156)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: onenotem.exe",
+      "process": "onenotem.exe (PID 11212)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: copilot.exe",
+      "process": "copilot.exe (PID 11276)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe\\Copilot.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiprvse.exe",
+      "process": "wmiprvse.exe (PID 11316)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 11380)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe",
+      "process": "lenovo.modern.imcontroller.pluginhost.device.exe (PID 11600)",
+      "path": "C:\\Windows\\Lenovo\\ImController\\PluginHost86\\Lenovo.Modern.ImController.PluginHost.Device.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 11848)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: appactions.exe",
+      "process": "appactions.exe (PID 11852)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fontdrvhost.exe",
+      "process": "fontdrvhost.exe (PID 12048)",
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 12076)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: crossdeviceservice.exe",
+      "process": "crossdeviceservice.exe (PID 12164)",
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26012.79.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe",
+      "process": "lenovovantage-(lenovogamingsystemaddin).exe (PID 12300)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 12344)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(vantagecoreaddin).exe",
+      "process": "lenovovantage-(vantagecoreaddin).exe (PID 12832)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(VantageCoreAddin).exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 12868)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 12896)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: widgetboard.exe",
+      "process": "widgetboard.exe (PID 12996)",
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\\WidgetBoard.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 13032)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 13328)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 13412)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 13460)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiprvse.exe",
+      "process": "wmiprvse.exe (PID 13524)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 13528)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 13580)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe",
+      "process": "lenovovantage-(lenovoservicebridgeaddin).exe (PID 13876)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 14196)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: shellhost.exe",
+      "process": "shellhost.exe (PID 14304)",
+      "path": "C:\\Windows\\System32\\ShellHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fnhotkeyutility.exe",
+      "process": "fnhotkeyutility.exe (PID 14396)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 14548)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: messagingplugin.exe",
+      "process": "messagingplugin.exe (PID 15128)",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\MessagingPlugin.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: useroobebroker.exe",
+      "process": "useroobebroker.exe (PID 15496)",
+      "path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 15504)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: searchprotocolhost.exe",
+      "process": "searchprotocolhost.exe (PID 15532)",
+      "path": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lockapp.exe",
+      "process": "lockapp.exe (PID 15588)",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicsvc32.exe",
+      "process": "nahimicsvc32.exe (PID 15608)",
+      "path": "C:\\Windows\\SysWOW64\\NahimicSvc32.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 15844)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 16060)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 16160)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 16568)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: microsoftstartfeedprovider.exe",
+      "process": "microsoftstartfeedprovider.exe (PID 16644)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.241.0.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: sdxhelper.exe",
+      "process": "sdxhelper.exe (PID 16804)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\SDXHelper.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 16856)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiapsrv.exe",
+      "process": "wmiapsrv.exe (PID 16916)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiApSrv.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpn-gui.exe",
+      "process": "openvpn-gui.exe (PID 17012)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpn-gui.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 17080)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 17092)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 17300)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 17624)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: whatsapp.root.exe",
+      "process": "whatsapp.root.exe (PID 17640)",
+      "path": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2607.106.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 18204)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 18236)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 18308)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 18416)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: searchindexer.exe",
+      "process": "searchindexer.exe (PID 18928)",
+      "path": "C:\\Windows\\System32\\SearchIndexer.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 18944)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: batterywidgethost.exe",
+      "process": "batterywidgethost.exe (PID 19096)",
+      "path": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\BatteryWidgetAddin\\3.0.0.191\\BatteryWidgetHost\\BatteryWidgetHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 19308)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: locator.exe",
+      "process": "locator.exe (PID 19412)",
+      "path": "C:\\Windows\\System32\\Locator.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 19464)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: dllhost.exe",
+      "process": "dllhost.exe (PID 19680)",
+      "path": "C:\\Windows\\System32\\dllhost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 19724)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 19940)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 20032)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: ctfmon.exe",
+      "process": "ctfmon.exe (PID 20056)",
+      "path": "C:\\Windows\\System32\\ctfmon.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: startmenuexperiencehost.exe",
+      "process": "startmenuexperiencehost.exe (PID 20088)",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 20280)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 20464)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: shellexperiencehost.exe",
+      "process": "shellexperiencehost.exe (PID 20564)",
+      "path": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 20856)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 20928)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 21260)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 21540)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 21544)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 21572)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 21824)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 22228)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: applicationframehost.exe",
+      "process": "applicationframehost.exe (PID 22388)",
+      "path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 22640)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: backgroundtaskhost.exe",
+      "process": "backgroundtaskhost.exe (PID 23152)",
+      "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 23404)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: cmd.exe",
+      "process": "cmd.exe (PID 23640)",
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 23740)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.97\\msedgewebview2.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicsvc64.exe",
+      "process": "nahimicsvc64.exe (PID 23800)",
+      "path": "C:\\Windows\\System32\\NahimicSvc64.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fnhotkeycapslknumlk.exe",
+      "process": "fnhotkeycapslknumlk.exe (PID 23832)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 24004)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 24252)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 24268)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-07T14:23:47.975329Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Aggregated Data Platform Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Application Layer Gateway Service",
+      "details": "c:\\windows\\system32\\alg.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Application Identity",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Application Information",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: App Readiness",
+      "details": "c:\\windows\\system32\\svchost.exe -k appreadiness -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: AppX Deployment Service (AppXSVC)",
+      "details": "c:\\windows\\system32\\svchost.exe -k wsappx -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Virtual Audio Device Proxy Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Audio Endpoint Builder",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Audio",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Cellular Time",
+      "details": "c:\\windows\\system32\\svchost.exe -k autotimesvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: ActiveX Installer (AxInstSV)",
+      "details": "c:\\windows\\system32\\svchost.exe -k axinstsvgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: BitLocker Drive Encryption Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Base Filtering Engine",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetworkfirewall -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Background Intelligent Transfer Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: brlapi",
+      "details": "c:\\windows\\brltty\\bin\\brltty.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Background Tasks Infrastructure Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Bluetooth Audio Gateway Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: AVCTP service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Bluetooth Support Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Capability Access Manager Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k osprivacy -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Connected Devices Platform Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Certificate Propagation",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Office Click-to-Run Service",
+      "details": "\"c:\\program files\\common files\\microsoft shared\\clicktorun\\officeclicktorun.exe\" /service",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Client License Service (ClipSVC)",
+      "details": "c:\\windows\\system32\\svchost.exe -k wsappx -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: COM+ System Application",
+      "details": "c:\\windows\\system32\\dllhost.exe /processid:{02d4b3f1-fd88-11d1-960d-00805fc79235}",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CoreMessaging",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Content Protection HDCP Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\iigd_dch.inf_amd64_b38f68fdfc88d52c\\intelcphdcpsvc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Cryptographic Services",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DCOM Server Process Launcher",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Declared Configuration(DC) service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Optimize drives",
+      "details": "c:\\windows\\system32\\svchost.exe -k defragsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Device Association Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Device Install Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DevQuery Background Discovery Broker",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DHCP Client",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Diagnostic Execution Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k diagnostics",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Connected User Experiences and Telemetry",
+      "details": "c:\\windows\\system32\\svchost.exe -k utcsvc -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Display Policy Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Display Enhancement Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Device Management Enrollment Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DNS Client",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Delivery Optimization",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Wired AutoConfig",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Diagnostic Policy Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Device Setup Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Data Sharing Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Data Usage",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p -s dusmsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Extensible Authentication Protocol",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Edge Update Service (edgeupdate)",
+      "details": "\"c:\\program files (x86)\\microsoft\\edgeupdate\\microsoftedgeupdate.exe\" /svc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Edge Update Service (edgeupdatem)",
+      "details": "\"c:\\program files (x86)\\microsoft\\edgeupdate\\microsoftedgeupdate.exe\" /medsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Encrypting File System (EFS)",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Embedded Mode",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Enterprise App Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k appmodelredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Dynamic Tuning service",
+      "details": "\"c:\\windows\\system32\\driverstore\\filerepository\\dptf_cpu.inf_amd64_897ea327b3fe52f7\\esif_uf.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Event Log",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: COM+ Event System",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Function Discovery Provider Host",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Function Discovery Resource Publication",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: File History Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: FileSyncHelper",
+      "details": "\"c:\\program files\\microsoft onedrive\\26.040.0301.0001\\filesynchelper.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Font Cache Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Camera Frame Server",
+      "details": "c:\\windows\\system32\\svchost.exe -k camera",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Camera Frame Server Monitor",
+      "details": "c:\\windows\\system32\\svchost.exe -k cameramonitor",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: NVIDIA FrameView SDK service",
+      "details": "\"c:\\program files\\nvidia corporation\\frameviewsdk\\nvfvsdksvc_x64.exe\" -service",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: GameInput Service",
+      "details": "c:\\windows\\system32\\gameinputsvc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Google Chrome Elevation Service (GoogleChromeElevationService)",
+      "details": "\"c:\\program files\\google\\chrome\\application\\146.0.7680.178\\elevation_service.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Google Updater Internal Service (GoogleUpdaterInternalService148.0.7730.0)",
+      "details": "\"c:\\program files (x86)\\google\\googleupdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Google Updater Service (GoogleUpdaterService148.0.7730.0)",
+      "details": "\"c:\\program files (x86)\\google\\googleupdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Group Policy Client",
+      "details": "c:\\windows\\system32\\svchost.exe -k gpsvcgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: GraphicsPerfSvc",
+      "details": "c:\\windows\\system32\\svchost.exe -k graphicsperfsvcgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Human Interface Device Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Host Network Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hotpatch Monitoring Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: HV Host Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Optane(TM) Memory Service",
+      "details": "c:\\windows\\system32\\iastorafsservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Mobile Hotspot Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Graphics Command Center Service",
+      "details": "\"c:\\windows\\system32\\driverstore\\filerepository\\igcc_dch.inf_amd64_a687edda40db3316\\oneapp.igcc.winservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) HD Graphics Control Panel Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxcuiservicen.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: IKE and AuthIP IPsec Keying Modules",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: System Interface Foundation Service",
+      "details": "c:\\windows\\lenovo\\imcontroller\\service\\lenovo.modern.imcontroller.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Store Install Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Capability Licensing Service TCP IP Interface",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\iclsclient.inf_amd64_367008a610747d24\\lib\\socketheciserver.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) TPM Provisioning Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\iclsclient.inf_amd64_367008a610747d24\\lib\\tpmprovisioningservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Audio Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\intcoed.inf_amd64_6f0a892deb241071\\\\as\\\\ias\\\\intelaudioservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Inventory and Compatibility Appraisal service",
+      "details": "c:\\windows\\system32\\svchost.exe -k invsvcgroup -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: IP Helper",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: IP Translation Configuration Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Dynamic Application Loader Host Interface Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\dal.inf_amd64_64d7fcfcde9b9c10\\jhi_service.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CNG Key Isolation",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: KtmRm for Distributed Transaction Coordinator",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Server",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Workstation",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Lenovo Fn and function keys service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\lenovoutilityservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: LenovoVantageService",
+      "details": "\"c:\\program files (x86)\\lenovo\\vantageservice\\\\4.2601.21.0\\lenovovantageservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Geolocation Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows License Manager Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Link-Layer Topology Discovery Mapper",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: TCP/IP NetBIOS Helper",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Kerberos Local Key Distribution Center",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: LSM",
+      "details": "",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Language Experience Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Downloaded Maps Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: McAfee WebAdvisor",
+      "details": "\"c:\\program files\\mcafee\\webadvisor\\servicehost.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Mobile Connectivity Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k mcmsvc -p -s mcmsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: McpManagementService",
+      "details": "c:\\windows\\system32\\svchost.exe -k mcpmanagementservicegroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Defender Core Service",
+      "details": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\mpdefendercoreservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "details": "\"c:\\program files (x86)\\microsoft\\edge\\application\\146.0.3856.97\\elevation_service.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows MIDI Service",
+      "details": "c:\\windows\\system32\\midisrv.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Defender Firewall",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetworkfirewall -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Distributed Transaction Coordinator",
+      "details": "c:\\windows\\system32\\msdtc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft iSCSI Initiator Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Installer",
+      "details": "c:\\windows\\system32\\msiexec.exe /v",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: MS-MPI Launch Service",
+      "details": "\"c:\\program files\\microsoft mpi\\bin\\msmpilaunchsvc.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: MySQL80",
+      "details": "\"c:\\program files\\mysql\\mysql server 8.0\\bin\\mysqld.exe\" --defaults-file=\"c:\\programdata\\mysql\\mysql server 8.0\\my.ini\" mysql80",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Nahimic service",
+      "details": "\"c:\\windows\\system32\\nahimicservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Natural Authentication",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Connectivity Assistant",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Connection Broker",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Connected Devices Auto-Setup",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Netlogon",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Connections",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network List Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netprofm -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: NetSetupSvc",
+      "details": "",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Net.Tcp Port Sharing Service",
+      "details": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\smsvchost.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Passport Container",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Passport",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Location Awareness",
+      "details": "c:\\windows\\system32\\svchost.exe -k netprofm -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Store Interface Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Network Virtualization Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: NVIDIA LocalSystem Container",
+      "details": "\"c:\\program files\\nvidia corporation\\nvcontainer\\nvcontainer.exe\" -s nvcontainerlocalsystem -a -f \"c:\\programdata\\nvidia\\nvcontainerlocalsystem.log\" -l 3 -d \"c:\\program files\\nvidia corporation\\nvcontainer\\plugins\\localsystem\" -r -p 30000 -st \"c:\\program files\\nvidia corporation\\nvcontainer\\nvcontainertelemetryapi.dll\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: NVIDIA Display Container LS",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\nvlt.inf_amd64_56eae984f56a52e3\\display.nvcontainer\\nvdisplay.container.exe -s nvdisplay.containerlocalsystem -f c:\\programdata\\nvidia\\nvdisplay.containerlocalsystem.log -l 3 -d c:\\windows\\system32\\driverstore\\filerepository\\nvlt.inf_amd64_56eae984f56a52e3\\display.nvcontainer\\plugins\\localsystem -r -p 30000 -cfg nvdisplay.containerlocalsystem\\localsystem",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: OneDrive Updater Service",
+      "details": "\"c:\\program files\\microsoft onedrive\\26.040.0301.0001\\onedriveupdaterservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: OpenVPNService",
+      "details": "\"c:\\program files\\openvpn\\bin\\openvpnserv2.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: OpenVPN Interactive Service",
+      "details": "\"c:\\program files\\openvpn\\bin\\openvpnserv.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Program Compatibility Assistant Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Perception Simulation Service",
+      "details": "c:\\windows\\system32\\perceptionsimulation\\perceptionsimulationservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Performance Counter DLL Host",
+      "details": "c:\\windows\\syswow64\\perfhost.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Phone Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Performance Logs & Alerts",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenonetwork -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Plug and Play",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: IPsec Policy Agent",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Power",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Print Device Configuration Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Printer Extensions and Notifications",
+      "details": "c:\\windows\\system32\\svchost.exe -k print",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: PrintScanBrokerService",
+      "details": "c:\\windows\\system32\\svchost.exe -k printscanbrokerservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Profile Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k userprofileservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows PushToInstall Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Quality Windows Audio Video Experience",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Access Auto Connection Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Access Connection Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: ReFS Dedup Service",
+      "details": "c:\\windows\\system32\\refsdedupsvc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Routing and Remote Access",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Registry",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Retail Demo Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k rdxgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Radio Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: RPC Endpoint Mapper",
+      "details": "c:\\windows\\system32\\svchost.exe -k rpcss -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Procedure Call (RPC) Locator",
+      "details": "c:\\windows\\system32\\locator.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Procedure Call (RPC)",
+      "details": "c:\\windows\\system32\\svchost.exe -k rpcss -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Storage Middleware Service",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\iastorvd.inf_amd64_a5d1cbafba9d4a6c\\rstmwservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Realtek Audio Universal Service",
+      "details": "\"c:\\windows\\system32\\driverstore\\filerepository\\realtekservice.inf_amd64_4401706d277a86e0\\rtkauduservice64.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Security Accounts Manager",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Smart Card",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Smart Card Device Enumeration Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Task Scheduler",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Smart Card Removal Policy",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Backup",
+      "details": "c:\\windows\\system32\\svchost.exe -k sdrsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Secondary Logon",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Security Service",
+      "details": "c:\\windows\\system32\\securityhealthservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Payments and NFC/SE Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: System Event Notification Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Sensor Data Service",
+      "details": "c:\\windows\\system32\\sensordataservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Sensor Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Sensor Monitoring Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Desktop Configuration",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Internet Connection Sharing (ICS)",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Shell Hardware Detection",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Shared PC Account Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Storage Spaces SMP",
+      "details": "c:\\windows\\system32\\svchost.exe -k smphost",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Windows SMS Router Service.",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: SNMP Trap",
+      "details": "c:\\windows\\system32\\snmptrap.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Print Spooler",
+      "details": "c:\\windows\\system32\\spoolsv.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Software Protection",
+      "details": "c:\\windows\\system32\\sppsvc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: SSDP Discovery",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: OpenSSH Authentication Agent",
+      "details": "c:\\windows\\system32\\openssh\\ssh-agent.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Secure Socket Tunneling Protocol Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: State Repository Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k appmodel -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Image Acquisition (WIA)",
+      "details": "c:\\windows\\system32\\svchost.exe -k imgsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Storage Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Spot Verifier",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Software Shadow Copy Provider",
+      "details": "c:\\windows\\system32\\svchost.exe -k swprv",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: SysMain",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: System Events Broker",
+      "details": "c:\\windows\\system32\\svchost.exe -k dcomlaunch -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Telephony",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Desktop Services",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Text Input Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Themes",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Storage Tiers Management",
+      "details": "c:\\windows\\system32\\tieringengineservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Time Broker",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Web Account Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Distributed Link Tracking Client",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Recommended Troubleshooting Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Modules Installer",
+      "details": "c:\\windows\\servicing\\trustedinstaller.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Auto Time Zone Updater",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Universal Device Client Service",
+      "details": "c:\\windows\\system32\\drivers\\lenovo\\udc\\service\\udclientservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Remote Desktop Services UserMode Port Redirector",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: UPnP Device Host",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Update Orchestrator Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Credential Manager",
+      "details": "c:\\windows\\system32\\lsass.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: VirtualBox system service",
+      "details": "\"c:\\program files\\oracle\\virtualbox\\vboxsds.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Virtual Disk",
+      "details": "c:\\windows\\system32\\vds.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Host Compute Service",
+      "details": "c:\\windows\\system32\\vmcompute.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Guest Service Interface",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Heartbeat Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k icservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Data Exchange Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Remote Desktop Virtualization Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k icservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Guest Shutdown Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Time Synchronization Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V PowerShell Direct Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Hyper-V Volume Shadow Copy Requestor",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Volume Shadow Copy",
+      "details": "c:\\windows\\system32\\vssvc.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Time",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WaaSMedicSvc",
+      "details": "c:\\windows\\system32\\svchost.exe -k wusvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WalletService",
+      "details": "c:\\windows\\system32\\svchost.exe -k appmodel -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Warp JIT Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Block Level Backup Engine Service",
+      "details": "\"c:\\windows\\system32\\wbengine.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Biometric Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k wbiosvcgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Connection Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p -s wcmsvc",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Connect Now - Config Registrar",
+      "details": "c:\\windows\\system32\\svchost.exe -k localserviceandnoimpersonation -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Diagnostic Service Host",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Diagnostic System Host",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Defender Antivirus Network Inspection Service",
+      "details": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\nissrv.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WebClient",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Web Threat Defense Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k webthreatdefense -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Event Collector",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Encryption Provider Host Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k wephostsvcgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Problem Reports Control Panel Support",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Error Reporting Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k wersvcgroup",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Wi-Fi Direct Services Connection Manager Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Health and Optimized Experiences",
+      "details": "c:\\windows\\system32\\svchost.exe -k whesvc -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Still Image Acquisition Events",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Defender Antivirus Service",
+      "details": "\"c:\\programdata\\microsoft\\windows defender\\platform\\4.18.26020.6-0\\msmpeng.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WinHTTP Web Proxy Auto-Discovery Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicehttp -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Management Instrumentation",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Remote Management (WS-Management)",
+      "details": "c:\\windows\\system32\\svchost.exe -k networkservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Insider Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WLAN AutoConfig",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Account Sign-in Assistant",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Local Profile Assistant Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WMI Performance Adapter",
+      "details": "c:\\windows\\system32\\wbem\\wmiapsrv.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Intel(R) Management Engine WMI Provider Registration",
+      "details": "c:\\windows\\system32\\driverstore\\filerepository\\mewmiprov.inf_amd64_d51901c26227fb29\\wmiregistrationservice.exe",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Media Player Network Sharing Service",
+      "details": "\"c:\\program files\\windows media player\\wmpnetwk.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Work Folders",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Parental Controls",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Portable Device Enumerator Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Push Notifications System Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WSAIFabricSvc",
+      "details": "c:\\windows\\system32\\svchost.exe -k wsaifabricsvcgroup -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Subsystem for Android\u2122",
+      "details": "\"c:\\program files\\windowsapps\\microsoftcorporationii.windowssubsystemforandroid_2407.40000.4.0_x64__8wekyb3d8bbwe\\wsaservice\\wsaservice.exe\"",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Security Center",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservicenetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Search",
+      "details": "c:\\windows\\system32\\searchindexer.exe /embedding",
+      "timestamp": "2026-04-07T14:23:54.499547Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Update",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Microsoft Usage and Quality Insights",
+      "details": "c:\\windows\\system32\\svchost.exe -k wuqisvcgroup -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: WWAN AutoConfig",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Xbox Live Auth Manager",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcsredirectionguard -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Xbox Live Game Save",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Xbox Accessory Management Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Xbox Live Networking Service",
+      "details": "c:\\windows\\system32\\svchost.exe -k netsvcs -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Agent Activation Runtime_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k aarsvcgroup -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: GameDVR and Broadcast User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k bcastdvruserservice",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Bluetooth User Support Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k bthappgroup -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CaptureService_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Clipboard User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k clipboardsvcgroup -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Connected Devices Platform User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Cloud Backup and Restore Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: ConsentUX User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CredentialEnrollmentManagerUserSvc_b7faf9f",
+      "details": "c:\\windows\\system32\\credentialenrollmentmanager.exe",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DeviceAssociationBroker_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DevicePicker_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DevicesFlow_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: MessagingService_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Now Playing Session Manager Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Sync Host_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: P9RdrService_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k p9rdrservice -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: PenService_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k penservice",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Contact Data_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: PrintWorkflow_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k printworkflow",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Udk User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k udksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Data Storage_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Data Access_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Web Threat Defense User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Push Notifications User Service_b7faf9f",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-07T14:23:54.501554Z"
+    }
+  ]
+}
