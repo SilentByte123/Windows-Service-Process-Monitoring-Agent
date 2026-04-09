@@ -46,6 +46,9 @@ Every sweep writes two files in `reports/`:
 - `src/reporting.py` – logging and report writers
 - `requirements.txt` – Python dependencies
 
+## Deployment Link
+- Source (auto-zip of main branch): https://github.com/SilentByte123/Windows-Service-Process-Monitoring-Agent/archive/refs/heads/main.zip
+
 ## Next Steps / Ideas
 - Add signature verification (Authenticode) to reduce false positives.
 - Emit Windows Event Log records for SIEM ingestion.
