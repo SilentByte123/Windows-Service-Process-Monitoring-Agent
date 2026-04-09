@@ -1,0 +1,1453 @@
+Detection Report @ 20260407-142820Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 23.88s
+Alerts: 362
+
+[1] MEDIUM | unauthorized_process | unauthorized process: system idle process
+    process: system idle process (PID 0)
+
+[2] MEDIUM | unauthorized_process | unauthorized process: registry
+    process: registry (PID 184)
+    path: Registry
+
+[3] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 1220)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[4] MEDIUM | unauthorized_process | unauthorized process: lsaiso.exe
+    process: lsaiso.exe (PID 1308)
+    path: C:\Windows\System32\LsaIso.exe
+
+[5] MEDIUM | unauthorized_process | unauthorized process: fontdrvhost.exe
+    process: fontdrvhost.exe (PID 1492)
+    path: C:\Windows\System32\fontdrvhost.exe
+
+[6] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 1556)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[7] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 1568)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[8] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 1720)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[9] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 1804)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[10] MEDIUM | unauthorized_process | unauthorized process: nvdisplay.container.exe
+    process: nvdisplay.container.exe (PID 1836)
+    path: C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_56eae984f56a52e3\Display.NvContainer\NVDisplay.Container.exe
+
+[11] MEDIUM | unauthorized_process | unauthorized process: appprovisioningplugin.exe
+    process: appprovisioningplugin.exe (PID 1924)
+    path: C:\ProgramData\Lenovo\Udc\Hosts\x64\AppProvisioningPlugin.exe
+
+[12] MEDIUM | unauthorized_process | unauthorized process: intelcphdcpsvc.exe
+    process: intelcphdcpsvc.exe (PID 2156)
+    path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b38f68fdfc88d52c\IntelCpHDCPSvc.exe
+
+[13] MEDIUM | unauthorized_process | unauthorized process: searchhost.exe
+    process: searchhost.exe (PID 2200)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+
+[14] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 2332)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[15] MEDIUM | unauthorized_process | unauthorized process: aggregatorhost.exe
+    process: aggregatorhost.exe (PID 2476)
+    path: C:\Windows\System32\AggregatorHost.exe
+
+[16] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 2712)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[17] MEDIUM | unauthorized_process | unauthorized process: igfxcuiservicen.exe
+    process: igfxcuiservicen.exe (PID 2748)
+    path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_6673c5322430fc8a\igfxCUIServiceN.exe
+
+[18] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 2764)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[19] MEDIUM | unauthorized_process | unauthorized process: sihost.exe
+    process: sihost.exe (PID 2840)
+    path: C:\Windows\System32\sihost.exe
+
+[20] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 2952)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[21] MEDIUM | unauthorized_process | unauthorized process: nvdisplay.container.exe
+    process: nvdisplay.container.exe (PID 3032)
+    path: C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_56eae984f56a52e3\Display.NvContainer\NVDisplay.Container.exe
+
+[22] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 3188)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[23] MEDIUM | unauthorized_process | unauthorized process: memcompression
+    process: memcompression (PID 3296)
+    path: MemCompression
+
+[24] MEDIUM | unauthorized_process | unauthorized process: openconsole.exe
+    process: openconsole.exe (PID 3936)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\OpenConsole.exe
+
+[25] MEDIUM | unauthorized_process | unauthorized process: windowsterminal.exe
+    process: windowsterminal.exe (PID 4204)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe
+
+[26] MEDIUM | unauthorized_process | unauthorized process: crossdeviceresume.exe
+    process: crossdeviceresume.exe (PID 4328)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe
+
+[27] MEDIUM | unauthorized_process | unauthorized process: wmiprvse.exe
+    process: wmiprvse.exe (PID 4380)
+    path: C:\Windows\System32\wbem\WmiPrvSE.exe
+
+[28] MEDIUM | unauthorized_process | unauthorized process: wlanext.exe
+    process: wlanext.exe (PID 4528)
+    path: C:\Windows\System32\wlanext.exe
+
+[29] MEDIUM | unauthorized_process | unauthorized process: oneapp.igcc.winservice.exe
+    process: oneapp.igcc.winservice.exe (PID 4532)
+    path: C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_a687edda40db3316\OneApp.IGCC.WinService.exe
+
+[30] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 4548)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[31] MEDIUM | unauthorized_process | unauthorized process: lenovo.modern.imcontroller.exe
+    process: lenovo.modern.imcontroller.exe (PID 4552)
+    path: C:\Windows\Lenovo\ImController\Service\Lenovo.Modern.ImController.exe
+
+[32] MEDIUM | unauthorized_process | unauthorized process: esif_uf.exe
+    process: esif_uf.exe (PID 4560)
+    path: C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_897ea327b3fe52f7\esif_uf.exe
+
+[33] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 4572)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[34] MEDIUM | unauthorized_process | unauthorized process: intelaudioservice.exe
+    process: intelaudioservice.exe (PID 4632)
+    path: C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_6f0a892deb241071\AS\IAS\IntelAudioService.exe
+
+[35] MEDIUM | unauthorized_process | unauthorized process: jhi_service.exe
+    process: jhi_service.exe (PID 4656)
+    path: C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_64d7fcfcde9b9c10\jhi_service.exe
+
+[36] MEDIUM | unauthorized_process | unauthorized process: lenovoutilityservice.exe
+    process: lenovoutilityservice.exe (PID 4676)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\LenovoUtilityService.exe
+
+[37] MEDIUM | unauthorized_process | unauthorized process: lenovovantageservice.exe
+    process: lenovovantageservice.exe (PID 4696)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantageService.exe
+
+[38] MEDIUM | unauthorized_process | unauthorized process: nahimicservice.exe
+    process: nahimicservice.exe (PID 4748)
+    path: C:\Windows\System32\NahimicService.exe
+
+[39] MEDIUM | unauthorized_process | unauthorized process: mysqld.exe
+    process: mysqld.exe (PID 4756)
+    path: C:\Program Files\MYSQL\MySQL Server 8.0\bin\mysqld.exe
+
+[40] MEDIUM | unauthorized_process | unauthorized process: openvpnserv2.exe
+    process: openvpnserv2.exe (PID 4832)
+    path: C:\Program Files\OpenVPN\bin\openvpnserv2.exe
+
+[41] MEDIUM | unauthorized_process | unauthorized process: openvpnserv.exe
+    process: openvpnserv.exe (PID 4848)
+    path: C:\Program Files\OpenVPN\bin\openvpnserv.exe
+
+[42] MEDIUM | unauthorized_process | unauthorized process: nahimicnotifsys.exe
+    process: nahimicnotifsys.exe (PID 4872)
+    path: C:\Users\Jyoti\AppData\Local\NhNotifSys\nahimic\nahimicNotifSys.exe
+
+[43] MEDIUM | unauthorized_process | unauthorized process: rtkauduservice64.exe
+    process: rtkauduservice64.exe (PID 4928)
+    path: C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4401706d277a86e0\RtkAudUService64.exe
+
+[44] MEDIUM | unauthorized_process | unauthorized process: rstmwservice.exe
+    process: rstmwservice.exe (PID 4944)
+    path: C:\Windows\System32\DriverStore\FileRepository\iastorvd.inf_amd64_a5d1cbafba9d4a6c\RstMwService.exe
+
+[45] MEDIUM | unauthorized_process | unauthorized process: udclientservice.exe
+    process: udclientservice.exe (PID 4964)
+    path: C:\Windows\System32\drivers\Lenovo\udc\Service\UDClientService.exe
+
+[46] MEDIUM | unauthorized_process | unauthorized process: mpdefendercoreservice.exe
+    process: mpdefendercoreservice.exe (PID 4980)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\MpDefenderCoreService.exe
+
+[47] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 5040)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[48] MEDIUM | unauthorized_process | unauthorized process: wmiregistrationservice.exe
+    process: wmiregistrationservice.exe (PID 5080)
+    path: C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe
+
+[49] MEDIUM | unauthorized_process | unauthorized process: msmpeng.exe
+    process: msmpeng.exe (PID 5108)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\MsMpEng.exe
+
+[50] MEDIUM | unauthorized_process | unauthorized process: mysqld.exe
+    process: mysqld.exe (PID 5268)
+    path: C:\Program Files\MYSQL\MySQL Server 8.0\bin\mysqld.exe
+
+[51] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 5352)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[52] MEDIUM | unauthorized_process | unauthorized process: servicehost.exe
+    process: servicehost.exe (PID 5904)
+    path: C:\Program Files\McAfee\WebAdvisor\servicehost.exe
+
+[53] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 6116)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[54] MEDIUM | unauthorized_process | unauthorized process: nahimic3.exe
+    process: nahimic3.exe (PID 6136)
+    path: C:\Program Files\WindowsApps\A-Volute.Nahimic_1.10.9.0_x64__w2gh52qy24etm\Nahimic3.exe
+
+[55] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 6168)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[56] MEDIUM | unauthorized_process | unauthorized process: securityhealthservice.exe
+    process: securityhealthservice.exe (PID 6364)
+    path: C:\Windows\System32\SecurityHealthService.exe
+
+[57] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 6368)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[58] MEDIUM | unauthorized_process | unauthorized process: officeclicktorun.exe
+    process: officeclicktorun.exe (PID 6556)
+    path: C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+
+[59] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 6912)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[60] MEDIUM | unauthorized_process | unauthorized process: castsrv.exe
+    process: castsrv.exe (PID 7052)
+    path: C:\Windows\System32\CastSrv.exe
+
+[61] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 7184)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[62] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 7200)
+    path: C:\ProgramData\anaconda3\python.exe
+
+[63] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 7328)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[64] MEDIUM | unauthorized_process | unauthorized process: igfxemn.exe
+    process: igfxemn.exe (PID 7608)
+    path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_6673c5322430fc8a\igfxEMN.exe
+
+[65] MEDIUM | unauthorized_process | unauthorized process: windowspackagemanagerserver.exe
+    process: windowspackagemanagerserver.exe (PID 7932)
+    path: C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.28.220.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe
+
+[66] MEDIUM | unauthorized_process | unauthorized process: onedrive.sync.service.exe
+    process: onedrive.sync.service.exe (PID 7996)
+    path: C:\Program Files\Microsoft OneDrive\26.040.0301.0001\OneDrive.Sync.Service.exe
+
+[67] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 8060)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[68] MEDIUM | unauthorized_process | unauthorized process: nissrv.exe
+    process: nissrv.exe (PID 8156)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\NisSrv.exe
+
+[69] MEDIUM | unauthorized_process | unauthorized process: textinputhost.exe
+    process: textinputhost.exe (PID 8240)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+
+[70] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 8388)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[71] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 8496)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[72] MEDIUM | unauthorized_process | unauthorized process: uihost.exe
+    process: uihost.exe (PID 8612)
+    path: C:\Program Files\McAfee\WebAdvisor\uihost.exe
+
+[73] MEDIUM | unauthorized_process | unauthorized process: time.exe
+    process: time.exe (PID 8676)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe\Time.exe
+
+[74] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 8908)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[75] MEDIUM | unauthorized_process | unauthorized process: openconsole.exe
+    process: openconsole.exe (PID 8936)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\OpenConsole.exe
+
+[76] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 8964)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[77] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 9092)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[78] MEDIUM | unauthorized_process | unauthorized process: backgroundtaskhost.exe
+    process: backgroundtaskhost.exe (PID 9192)
+    path: C:\Windows\System32\backgroundTaskHost.exe
+
+[79] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 9404)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[80] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 9452)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[81] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 9492)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[82] MEDIUM | unauthorized_process | unauthorized process: pet.exe
+    process: pet.exe (PID 9592)
+    path: C:\Users\Jyoti\.vscode\extensions\ms-python.python-2026.5.2026032701-win32-x64\python-env-tools\bin\pet.exe
+
+[83] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 9800)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[84] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(genericmessagingaddin).exe
+    process: lenovovantage-(genericmessagingaddin).exe (PID 10128)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(GenericMessagingAddin).exe
+
+[85] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 10132)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[86] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 10148)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[87] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 10228)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[88] MEDIUM | unauthorized_process | unauthorized process: widgetservice.exe
+    process: widgetservice.exe (PID 10372)
+    path: C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe
+
+[89] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 10524)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[90] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 10580)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[91] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 10620)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[92] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 11156)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[93] MEDIUM | unauthorized_process | unauthorized process: onenotem.exe
+    process: onenotem.exe (PID 11212)
+    path: C:\Program Files\Microsoft Office\root\Office16\ONENOTEM.EXE
+
+[94] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 11220)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[95] MEDIUM | unauthorized_process | unauthorized process: copilot.exe
+    process: copilot.exe (PID 11276)
+    path: C:\Program Files\WindowsApps\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe\Copilot.exe
+
+[96] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 11380)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[97] MEDIUM | unauthorized_process | unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe
+    process: lenovo.modern.imcontroller.pluginhost.device.exe (PID 11600)
+    path: C:\Windows\Lenovo\ImController\PluginHost86\Lenovo.Modern.ImController.PluginHost.Device.exe
+
+[98] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 11848)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[99] MEDIUM | unauthorized_process | unauthorized process: appactions.exe
+    process: appactions.exe (PID 11852)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe
+
+[100] MEDIUM | unauthorized_process | unauthorized process: fontdrvhost.exe
+    process: fontdrvhost.exe (PID 12048)
+    path: C:\Windows\System32\fontdrvhost.exe
+
+[101] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 12076)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[102] MEDIUM | unauthorized_process | unauthorized process: crossdeviceservice.exe
+    process: crossdeviceservice.exe (PID 12164)
+    path: C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.26012.79.0_x64__cw5n1h2txyewy\CrossDeviceService.exe
+
+[103] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe
+    process: lenovovantage-(lenovogamingsystemaddin).exe (PID 12300)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(LenovoGamingSystemAddin).exe
+
+[104] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 12344)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[105] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 12536)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[106] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(vantagecoreaddin).exe
+    process: lenovovantage-(vantagecoreaddin).exe (PID 12832)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(VantageCoreAddin).exe
+
+[107] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 12868)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[108] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 12896)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[109] MEDIUM | unauthorized_process | unauthorized process: widgetboard.exe
+    process: widgetboard.exe (PID 12996)
+    path: C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\WidgetBoard.exe
+
+[110] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 13032)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[111] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 13328)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[112] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 13412)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[113] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 13460)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\resources\codex.exe
+
+[114] MEDIUM | unauthorized_process | unauthorized process: wmiprvse.exe
+    process: wmiprvse.exe (PID 13524)
+    path: C:\Windows\System32\wbem\WmiPrvSE.exe
+
+[115] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 13528)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[116] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 13580)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[117] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe
+    process: lenovovantage-(lenovoservicebridgeaddin).exe (PID 13876)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(LenovoServiceBridgeAddin).exe
+
+[118] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 14084)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[119] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 14196)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[120] MEDIUM | unauthorized_process | unauthorized process: shellhost.exe
+    process: shellhost.exe (PID 14304)
+    path: C:\Windows\System32\ShellHost.exe
+
+[121] MEDIUM | unauthorized_process | unauthorized process: fnhotkeyutility.exe
+    process: fnhotkeyutility.exe (PID 14396)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\FnHotkeyUtility.exe
+
+[122] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 14548)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[123] MEDIUM | unauthorized_process | unauthorized process: messagingplugin.exe
+    process: messagingplugin.exe (PID 15128)
+    path: C:\ProgramData\Lenovo\Udc\Hosts\x64\MessagingPlugin.exe
+
+[124] MEDIUM | unauthorized_process | unauthorized process: useroobebroker.exe
+    process: useroobebroker.exe (PID 15496)
+    path: C:\Windows\System32\oobe\UserOOBEBroker.exe
+
+[125] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 15504)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[126] MEDIUM | unauthorized_process | unauthorized process: searchprotocolhost.exe
+    process: searchprotocolhost.exe (PID 15532)
+    path: C:\Windows\System32\SearchProtocolHost.exe
+
+[127] MEDIUM | unauthorized_process | unauthorized process: lockapp.exe
+    process: lockapp.exe (PID 15588)
+    path: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+
+[128] MEDIUM | unauthorized_process | unauthorized process: nahimicsvc32.exe
+    process: nahimicsvc32.exe (PID 15608)
+    path: C:\Windows\SysWOW64\NahimicSvc32.exe
+
+[129] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 15844)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[130] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 16060)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[131] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 16160)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[132] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 16424)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[133] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 16568)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[134] MEDIUM | unauthorized_process | unauthorized process: microsoftstartfeedprovider.exe
+    process: microsoftstartfeedprovider.exe (PID 16644)
+    path: C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.241.0.0_x64__8wekyb3d8bbwe\MicrosoftStartFeedProvider\MicrosoftStartFeedProvider.exe
+
+[135] MEDIUM | unauthorized_process | unauthorized process: sdxhelper.exe
+    process: sdxhelper.exe (PID 16804)
+    path: C:\Program Files\Microsoft Office\root\Office16\SDXHelper.exe
+
+[136] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 16856)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[137] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 16896)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[138] MEDIUM | unauthorized_process | unauthorized process: wmiapsrv.exe
+    process: wmiapsrv.exe (PID 16916)
+    path: C:\Windows\System32\wbem\WmiApSrv.exe
+
+[139] MEDIUM | unauthorized_process | unauthorized process: openvpn-gui.exe
+    process: openvpn-gui.exe (PID 17012)
+    path: C:\Program Files\OpenVPN\bin\openvpn-gui.exe
+
+[140] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 17040)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[141] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 17080)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[142] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 17092)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[143] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 17300)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[144] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 17624)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[145] MEDIUM | unauthorized_process | unauthorized process: whatsapp.root.exe
+    process: whatsapp.root.exe (PID 17640)
+    path: C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2607.106.0_x64__cv1g1gvanyjgm\WhatsApp.Root.exe
+
+[146] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 18064)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[147] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 18116)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[148] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 18204)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[149] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 18236)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[150] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 18308)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[151] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 18416)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[152] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 18852)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[153] MEDIUM | unauthorized_process | unauthorized process: searchindexer.exe
+    process: searchindexer.exe (PID 18928)
+    path: C:\Windows\System32\SearchIndexer.exe
+
+[154] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 18944)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[155] MEDIUM | unauthorized_process | unauthorized process: batterywidgethost.exe
+    process: batterywidgethost.exe (PID 19096)
+    path: C:\ProgramData\Lenovo\Vantage\Addins\BatteryWidgetAddin\3.0.0.191\BatteryWidgetHost\BatteryWidgetHost.exe
+
+[156] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 19308)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[157] MEDIUM | unauthorized_process | unauthorized process: locator.exe
+    process: locator.exe (PID 19412)
+    path: C:\Windows\System32\Locator.exe
+
+[158] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 19440)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[159] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 19464)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[160] MEDIUM | unauthorized_process | unauthorized process: dllhost.exe
+    process: dllhost.exe (PID 19680)
+    path: C:\Windows\System32\dllhost.exe
+
+[161] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 19724)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[162] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 19940)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[163] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 20032)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[164] MEDIUM | unauthorized_process | unauthorized process: ctfmon.exe
+    process: ctfmon.exe (PID 20056)
+    path: C:\Windows\System32\ctfmon.exe
+
+[165] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 20076)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Python\Python312\python.exe
+
+[166] MEDIUM | unauthorized_process | unauthorized process: startmenuexperiencehost.exe
+    process: startmenuexperiencehost.exe (PID 20088)
+    path: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+
+[167] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 20220)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[168] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 20280)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[169] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 20464)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[170] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 20540)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[171] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 20556)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[172] MEDIUM | unauthorized_process | unauthorized process: shellexperiencehost.exe
+    process: shellexperiencehost.exe (PID 20564)
+    path: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+
+[173] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 20584)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[174] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 20784)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[175] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 20856)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[176] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 20928)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[177] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 21204)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[178] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 21260)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[179] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 21540)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[180] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 21544)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[181] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 21572)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[182] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 21824)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[183] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 22228)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[184] MEDIUM | unauthorized_process | unauthorized process: applicationframehost.exe
+    process: applicationframehost.exe (PID 22388)
+    path: C:\Windows\System32\ApplicationFrameHost.exe
+
+[185] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 22428)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[186] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 22640)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[187] MEDIUM | unauthorized_process | unauthorized process: backgroundtaskhost.exe
+    process: backgroundtaskhost.exe (PID 23152)
+    path: C:\Windows\System32\backgroundTaskHost.exe
+
+[188] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 23404)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[189] MEDIUM | unauthorized_process | unauthorized process: cmd.exe
+    process: cmd.exe (PID 23640)
+    path: C:\Windows\System32\cmd.exe
+
+[190] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 23740)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[191] MEDIUM | unauthorized_process | unauthorized process: nahimicsvc64.exe
+    process: nahimicsvc64.exe (PID 23800)
+    path: C:\Windows\System32\NahimicSvc64.exe
+
+[192] MEDIUM | unauthorized_process | unauthorized process: fnhotkeycapslknumlk.exe
+    process: fnhotkeycapslknumlk.exe (PID 23832)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\FnHotkeyCapsLKNumLK.exe
+
+[193] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 24004)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[194] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 24252)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[195] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 24268)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[196] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24420)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[197] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24608)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[198] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24668)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[199] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24684)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[200] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24736)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[201] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24768)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[202] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24864)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[203] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 24900)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[204] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25092)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[205] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25212)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[206] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25248)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[207] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25300)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[208] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25376)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[209] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25396)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[210] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25464)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[211] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25580)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[212] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25604)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[213] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25792)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[214] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25812)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[215] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25860)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[216] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25916)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[217] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 25928)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[218] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26012)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[219] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26020)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[220] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26084)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[221] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26092)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[222] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26152)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[223] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26172)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[224] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26208)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[225] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26212)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[226] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26244)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[227] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26256)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[228] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26288)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[229] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26296)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[230] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26376)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[231] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26420)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[232] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26468)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[233] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26488)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[234] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26724)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[235] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26732)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[236] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26748)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[237] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26800)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[238] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26848)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[239] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26868)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[240] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 26936)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[241] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27024)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[242] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27044)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[243] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27272)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[244] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27308)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[245] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27316)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[246] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27348)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[247] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27396)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[248] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27400)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[249] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27444)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[250] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28024)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[251] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28112)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[252] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28196)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[253] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28332)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[254] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28360)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[255] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28652)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[256] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 28772)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[257] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 29088)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[258] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 29304)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[259] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 29388)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[260] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 29744)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[261] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 29860)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[262] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30144)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[263] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30244)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[264] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30256)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[265] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30364)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[266] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30396)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[267] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30444)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[268] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30452)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[269] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30556)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[270] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 30912)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[271] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31008)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[272] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31064)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[273] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31128)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[274] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31204)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[275] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31224)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[276] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31256)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[277] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31572)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[278] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31600)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[279] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31832)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[280] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 31908)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[281] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32104)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[282] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32180)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[283] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32240)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[284] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32324)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[285] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32872)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[286] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 32928)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[287] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 33396)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[288] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 33416)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[289] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 33824)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[290] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 33904)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[291] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 33968)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[292] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34000)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[293] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34076)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[294] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34108)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[295] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34248)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[296] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34300)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[297] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34328)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[298] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34548)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[299] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34728)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[300] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34796)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[301] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34804)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[302] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35232)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[303] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35256)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[304] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35260)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[305] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35268)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[306] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35360)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[307] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35452)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[308] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35476)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[309] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35620)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[310] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35648)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[311] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35880)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[312] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35912)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[313] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 35976)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[314] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36032)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[315] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36036)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[316] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36052)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[317] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36124)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[318] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36288)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[319] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36420)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[320] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36432)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[321] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36448)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[322] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36464)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[323] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36500)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[324] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36592)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[325] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36792)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[326] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36856)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[327] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 37084)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[328] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 37188)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[329] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 37452)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[330] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 37524)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[331] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 37956)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[332] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 38404)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[333] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 38868)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[334] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 38992)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[335] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39332)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[336] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39404)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[337] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39744)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[338] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39760)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[339] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39816)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[340] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39836)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[341] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 39884)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[342] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40004)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[343] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40016)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[344] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40048)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[345] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40128)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[346] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40152)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[347] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40420)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[348] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40480)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[349] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40544)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[350] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40572)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[351] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40592)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[352] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40620)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[353] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40732)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[354] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40748)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[355] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40784)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[356] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40816)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[357] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40872)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[358] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40880)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[359] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 40940)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[360] MEDIUM | unauthorized_process | unauthorized process: sppsvc.exe
+    process: sppsvc.exe (PID 42184)
+    path: C:\Windows\System32\sppsvc.exe
+
+[361] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 47908)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.97\msedgewebview2.exe
+
+[362] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 49872)
+    path: E:\project1\Windows-Service-Process-Monitoring-Agent\.venv\Scripts\python.exe

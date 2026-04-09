@@ -1,0 +1,26 @@
+Detection Report @ 20260409-162909Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 18.45s
+Alerts: 5
+
+[1] MEDIUM | unauthorized_process | unauthorized process: wmiregistrationservice.exe
+    process: wmiregistrationservice.exe (PID 5080)
+    path: C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe
+
+[2] MEDIUM | unauthorized_process | unauthorized process: messagingplugin.exe
+    process: messagingplugin.exe (PID 15584)
+    path: C:\ProgramData\Lenovo\Udc\Hosts\x64\MessagingPlugin.exe
+
+[3] MEDIUM | unauthorized_process | unauthorized process: dllhost.exe
+    process: dllhost.exe (PID 26448)
+    path: C:\Windows\System32\dllhost.exe
+
+[4] MEDIUM | unauthorized_process | unauthorized process: dllhost.exe
+    process: dllhost.exe (PID 31876)
+    path: C:\Windows\System32\dllhost.exe
+
+[5] MEDIUM | unauthorized_process | unauthorized process: sdxhelper.exe
+    process: sdxhelper.exe (PID 38876)
+    path: C:\Program Files\Microsoft Office\root\Office16\SDXHelper.exe

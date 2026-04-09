@@ -1,0 +1,1661 @@
+{
+  "generated_utc": "20260409-161413",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 15.18,
+    "process_count": 319,
+    "alerts": 209
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: system idle process",
+      "process": "system idle process (PID 0)",
+      "path": "",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: registry",
+      "process": "registry (PID 184)",
+      "path": "Registry",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lsaiso.exe",
+      "process": "lsaiso.exe (PID 1308)",
+      "path": "C:\\Windows\\System32\\LsaIso.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fontdrvhost.exe",
+      "process": "fontdrvhost.exe (PID 1492)",
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 1568)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 1772)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: appprovisioningplugin.exe",
+      "process": "appprovisioningplugin.exe (PID 1924)",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\AppProvisioningPlugin.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 2128)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: intelcphdcpsvc.exe",
+      "process": "intelcphdcpsvc.exe (PID 2156)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b38f68fdfc88d52c\\IntelCpHDCPSvc.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: aggregatorhost.exe",
+      "process": "aggregatorhost.exe (PID 2476)",
+      "path": "C:\\Windows\\System32\\AggregatorHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 2552)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 2580)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: obsidian.exe",
+      "process": "obsidian.exe (PID 2612)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: igfxcuiservicen.exe",
+      "process": "igfxcuiservicen.exe (PID 2748)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxCUIServiceN.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nvdisplay.container.exe",
+      "process": "nvdisplay.container.exe (PID 3032)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_56eae984f56a52e3\\Display.NvContainer\\NVDisplay.Container.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: memcompression",
+      "process": "memcompression (PID 3296)",
+      "path": "MemCompression",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiprvse.exe",
+      "process": "wmiprvse.exe (PID 4380)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wlanext.exe",
+      "process": "wlanext.exe (PID 4528)",
+      "path": "C:\\Windows\\System32\\wlanext.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: oneapp.igcc.winservice.exe",
+      "process": "oneapp.igcc.winservice.exe (PID 4532)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_a687edda40db3316\\OneApp.IGCC.WinService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovo.modern.imcontroller.exe",
+      "process": "lenovo.modern.imcontroller.exe (PID 4552)",
+      "path": "C:\\Windows\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: esif_uf.exe",
+      "process": "esif_uf.exe (PID 4560)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_897ea327b3fe52f7\\esif_uf.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 4604)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: intelaudioservice.exe",
+      "process": "intelaudioservice.exe (PID 4632)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_6f0a892deb241071\\AS\\IAS\\IntelAudioService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: jhi_service.exe",
+      "process": "jhi_service.exe (PID 4656)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_64d7fcfcde9b9c10\\jhi_service.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovoutilityservice.exe",
+      "process": "lenovoutilityservice.exe (PID 4676)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantageservice.exe",
+      "process": "lenovovantageservice.exe (PID 4696)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantageService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: obsidian.exe",
+      "process": "obsidian.exe (PID 4720)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicservice.exe",
+      "process": "nahimicservice.exe (PID 4748)",
+      "path": "C:\\Windows\\System32\\NahimicService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mysqld.exe",
+      "process": "mysqld.exe (PID 4756)",
+      "path": "C:\\Program Files\\MYSQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpnserv2.exe",
+      "process": "openvpnserv2.exe (PID 4832)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpnserv2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpnserv.exe",
+      "process": "openvpnserv.exe (PID 4848)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpnserv.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: rtkauduservice64.exe",
+      "process": "rtkauduservice64.exe (PID 4928)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_4401706d277a86e0\\RtkAudUService64.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: rstmwservice.exe",
+      "process": "rstmwservice.exe (PID 4944)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorvd.inf_amd64_a5d1cbafba9d4a6c\\RstMwService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: udclientservice.exe",
+      "process": "udclientservice.exe (PID 4964)",
+      "path": "C:\\Windows\\System32\\drivers\\Lenovo\\udc\\Service\\UDClientService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mpdefendercoreservice.exe",
+      "process": "mpdefendercoreservice.exe (PID 4980)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\MpDefenderCoreService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiregistrationservice.exe",
+      "process": "wmiregistrationservice.exe (PID 5080)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\WMIRegistrationService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msmpeng.exe",
+      "process": "msmpeng.exe (PID 5108)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\MsMpEng.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: mysqld.exe",
+      "process": "mysqld.exe (PID 5268)",
+      "path": "C:\\Program Files\\MYSQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 5400)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: servicehost.exe",
+      "process": "servicehost.exe (PID 5904)",
+      "path": "C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nvdisplay.container.exe",
+      "process": "nvdisplay.container.exe (PID 6280)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_56eae984f56a52e3\\Display.NvContainer\\NVDisplay.Container.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: securityhealthservice.exe",
+      "process": "securityhealthservice.exe (PID 6364)",
+      "path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: officeclicktorun.exe",
+      "process": "officeclicktorun.exe (PID 6556)",
+      "path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 6912)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 7184)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wudfhost.exe",
+      "process": "wudfhost.exe (PID 7328)",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 7952)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 8004)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nissrv.exe",
+      "process": "nissrv.exe (PID 8156)",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26020.6-0\\NisSrv.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe",
+      "process": "lenovovantage-(lenovoservicebridgeaddin).exe (PID 8168)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 9300)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: pet.exe",
+      "process": "pet.exe (PID 9868)",
+      "path": "C:\\Users\\Jyoti\\.vscode\\extensions\\ms-python.python-2026.5.2026032701-win32-x64\\python-env-tools\\bin\\pet.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 10028)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 10316)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 10852)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: onedrive.sync.service.exe",
+      "process": "onedrive.sync.service.exe (PID 11404)",
+      "path": "C:\\Program Files\\Microsoft OneDrive\\26.040.0301.0001\\OneDrive.Sync.Service.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 11692)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fnhotkeyutility.exe",
+      "process": "fnhotkeyutility.exe (PID 11916)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe",
+      "process": "lenovovantage-(lenovogamingsystemaddin).exe (PID 12300)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(vantagecoreaddin).exe",
+      "process": "lenovovantage-(vantagecoreaddin).exe (PID 12832)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(VantageCoreAddin).exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 13164)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 13540)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 13804)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 14916)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 15012)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 15536)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: messagingplugin.exe",
+      "process": "messagingplugin.exe (PID 15584)",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\MessagingPlugin.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiapsrv.exe",
+      "process": "wmiapsrv.exe (PID 16916)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiApSrv.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 18236)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: shellexperiencehost.exe",
+      "process": "shellexperiencehost.exe (PID 18264)",
+      "path": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: uihost.exe",
+      "process": "uihost.exe (PID 18356)",
+      "path": "C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: searchindexer.exe",
+      "process": "searchindexer.exe (PID 18928)",
+      "path": "C:\\Windows\\System32\\SearchIndexer.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: locator.exe",
+      "process": "locator.exe (PID 19412)",
+      "path": "C:\\Windows\\System32\\Locator.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: shellhost.exe",
+      "process": "shellhost.exe (PID 19824)",
+      "path": "C:\\Windows\\System32\\ShellHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 20040)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicnotifsys.exe",
+      "process": "nahimicnotifsys.exe (PID 20092)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\NhNotifSys\\nahimic\\nahimicNotifSys.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 20224)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 20636)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicsvc64.exe",
+      "process": "nahimicsvc64.exe (PID 21120)",
+      "path": "C:\\Windows\\System32\\NahimicSvc64.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: startmenuexperiencehost.exe",
+      "process": "startmenuexperiencehost.exe (PID 22060)",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiprvse.exe",
+      "process": "wmiprvse.exe (PID 22304)",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 22384)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: castsrv.exe",
+      "process": "castsrv.exe (PID 22396)",
+      "path": "C:\\Windows\\System32\\CastSrv.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 22768)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 22944)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 23540)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 24120)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 24528)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 24660)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 25048)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 25228)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: textinputhost.exe",
+      "process": "textinputhost.exe (PID 25620)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: onenotem.exe",
+      "process": "onenotem.exe (PID 25840)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: backgroundtaskhost.exe",
+      "process": "backgroundtaskhost.exe (PID 25924)",
+      "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 25936)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: dllhost.exe",
+      "process": "dllhost.exe (PID 26448)",
+      "path": "C:\\Windows\\System32\\dllhost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 26736)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: windowsterminal.exe",
+      "process": "windowsterminal.exe (PID 26856)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 26932)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 27212)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: widgetservice.exe",
+      "process": "widgetservice.exe (PID 27528)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 27636)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fnhotkeycapslknumlk.exe",
+      "process": "fnhotkeycapslknumlk.exe (PID 27760)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 27852)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 27944)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimicsvc32.exe",
+      "process": "nahimicsvc32.exe (PID 28420)",
+      "path": "C:\\Windows\\SysWOW64\\NahimicSvc32.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: applicationframehost.exe",
+      "process": "applicationframehost.exe (PID 29208)",
+      "path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: phoneexperiencehost.exe",
+      "process": "phoneexperiencehost.exe (PID 29220)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26012.101.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: ctfmon.exe",
+      "process": "ctfmon.exe (PID 29640)",
+      "path": "C:\\Windows\\System32\\ctfmon.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: igfxemn.exe",
+      "process": "igfxemn.exe (PID 29808)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_6673c5322430fc8a\\igfxEMN.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 29972)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lockapp.exe",
+      "process": "lockapp.exe (PID 30016)",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: whatsapp.root.exe",
+      "process": "whatsapp.root.exe (PID 31044)",
+      "path": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2607.106.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 31152)",
+      "path": "C:\\ProgramData\\anaconda3\\python.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 31840)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: dllhost.exe",
+      "process": "dllhost.exe (PID 31876)",
+      "path": "C:\\Windows\\System32\\dllhost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: backgroundtaskhost.exe",
+      "process": "backgroundtaskhost.exe (PID 32128)",
+      "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 32440)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 32528)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: time.exe",
+      "process": "time.exe (PID 33208)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe\\Time.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 34620)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 34768)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 34880)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: widgetboard.exe",
+      "process": "widgetboard.exe (PID 35252)",
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\\WidgetBoard.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: crossdeviceresume.exe",
+      "process": "crossdeviceresume.exe (PID 35576)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 36616)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 37532)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: unsecapp.exe",
+      "process": "unsecapp.exe (PID 37568)",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: sihost.exe",
+      "process": "sihost.exe (PID 37812)",
+      "path": "C:\\Windows\\System32\\sihost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 38200)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: systemsettings.exe",
+      "process": "systemsettings.exe (PID 38688)",
+      "path": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: sdxhelper.exe",
+      "process": "sdxhelper.exe (PID 38876)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\SDXHelper.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 39084)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 40244)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovovantage-(genericmessagingaddin).exe",
+      "process": "lenovovantage-(genericmessagingaddin).exe (PID 40920)",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(GenericMessagingAddin).exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 41084)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 41092)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 41676)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: obsidian.exe",
+      "process": "obsidian.exe (PID 41808)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: microsoftstartfeedprovider.exe",
+      "process": "microsoftstartfeedprovider.exe (PID 42532)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.241.0.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 43368)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 43460)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 43608)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: batterywidgethost.exe",
+      "process": "batterywidgethost.exe (PID 43628)",
+      "path": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\BatteryWidgetAddin\\3.0.0.191\\BatteryWidgetHost\\BatteryWidgetHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 43672)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 44604)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: python.exe",
+      "process": "python.exe (PID 44688)",
+      "path": "C:\\Users\\Jyoti\\OneDrive\\Documents\\project1\\Windows-Service-Process-Monitoring-Agent\\.venv\\Scripts\\python.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 44888)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 44908)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: obsidian.exe",
+      "process": "obsidian.exe (PID 45932)",
+      "path": "C:\\Users\\Jyoti\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 45984)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: crossdeviceservice.exe",
+      "process": "crossdeviceservice.exe (PID 46968)",
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26012.79.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chrome.exe",
+      "process": "chrome.exe (PID 46980)",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 47168)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 47720)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 47804)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 48720)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 48892)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 50044)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 50220)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 50588)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 50748)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: smartscreen.exe",
+      "process": "smartscreen.exe (PID 50984)",
+      "path": "C:\\Windows\\System32\\smartscreen.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powershell.exe",
+      "process": "powershell.exe (PID 52408)",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: fontdrvhost.exe",
+      "process": "fontdrvhost.exe (PID 53292)",
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpn-gui.exe",
+      "process": "openvpn-gui.exe (PID 53480)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpn-gui.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 53616)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: copilot.exe",
+      "process": "copilot.exe (PID 54116)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe\\Copilot.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: searchhost.exe",
+      "process": "searchhost.exe (PID 54224)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: nahimic3.exe",
+      "process": "nahimic3.exe (PID 54232)",
+      "path": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.9.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 54560)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: useroobebroker.exe",
+      "process": "useroobebroker.exe (PID 54816)",
+      "path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: msedgewebview2.exe",
+      "process": "msedgewebview2.exe (PID 55176)",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.109\\msedgewebview2.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 55276)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: appactions.exe",
+      "process": "appactions.exe (PID 55528)",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 55568)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 55748)",
+      "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: git.exe",
+      "process": "git.exe (PID 56028)",
+      "path": "C:\\Program Files\\Git\\cmd\\git.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe",
+      "process": "lenovo.modern.imcontroller.pluginhost.device.exe (PID 56256)",
+      "path": "C:\\Windows\\Lenovo\\ImController\\PluginHost86\\Lenovo.Modern.ImController.PluginHost.Device.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 56508)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "high",
+      "summary": "unauthorized process in user-writable path: code.exe",
+      "process": "code.exe (PID 56924)",
+      "path": "C:\\Users\\Jyoti\\Downloads\\Microsoft VS Code\\Code.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openconsole.exe",
+      "process": "openconsole.exe (PID 57084)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: backgroundtaskhost.exe",
+      "process": "backgroundtaskhost.exe (PID 57192)",
+      "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: chatgpt.exe",
+      "process": "chatgpt.exe (PID 57812)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+      "timestamp": "2026-04-09T16:14:04.161483Z"
+    },
+    {
+      "type": "service_modified",
+      "severity": "high",
+      "summary": "Service changed (path): Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "details": "path='\"c:\\program files (x86)\\microsoft\\edge\\application\\146.0.3856.109\\elevation_service.exe\"', start_mode='manual'",
+      "timestamp": "2026-04-09T16:14:13.437585Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Agent Activation Runtime_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k aarsvcgroup -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: GameDVR and Broadcast User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k bcastdvruserservice",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Bluetooth User Support Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k bthappgroup -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CaptureService_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Clipboard User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k clipboardsvcgroup -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Connected Devices Platform User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Cloud Backup and Restore Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: ConsentUX User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: CredentialEnrollmentManagerUserSvc_5b4972c5",
+      "details": "c:\\windows\\system32\\credentialenrollmentmanager.exe",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DeviceAssociationBroker_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DevicePicker_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: DevicesFlow_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k devicesflow",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: MessagingService_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Now Playing Session Manager Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k localservice -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Sync Host_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: P9RdrService_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k p9rdrservice -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: PenService_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k penservice",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Contact Data_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: PrintWorkflow_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k printworkflow",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Udk User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k udksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Data Storage_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: User Data Access_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Web Threat Defense User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    },
+    {
+      "type": "service_new",
+      "severity": "medium",
+      "summary": "New service detected since baseline: Windows Push Notifications User Service_5b4972c5",
+      "details": "c:\\windows\\system32\\svchost.exe -k unistacksvcgroup",
+      "timestamp": "2026-04-09T16:14:13.439592Z"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+./src/__init__.py
+./src/config.py
+./src/monitor.py
+./src/reporting.py
+src/__init__.py
+src/config.py
+src/monitor.py
+src/reporting.py
+windows_service_process_monitoring_agent.egg-info/PKG-INFO
+windows_service_process_monitoring_agent.egg-info/SOURCES.txt
+windows_service_process_monitoring_agent.egg-info/dependency_links.txt
+windows_service_process_monitoring_agent.egg-info/requires.txt
+windows_service_process_monitoring_agent.egg-info/top_level.txt

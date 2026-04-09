@@ -1,13 +1,14 @@
+
 # Windows Service & Process Monitoring Agent
 
-Real-time Windows defender-style agent that watches processes and services for suspicious parent–child chains, rogue startup entries, and unauthorized executables. Designed for blue-team labs, incident-response drills, or classroom demos.
+Real-time Windows defender-style agent that watches processes and services for suspicious parent-child chains, rogue startup entries, and unauthorized executables. Designed for blue-team labs, incident-response drills, or classroom demos.
 
 ## Features
-- Parent–child anomaly detection (e.g., `winword.exe -> powershell.exe`).
+- Parent-child anomaly detection (e.g., `winword.exe -> powershell.exe`).
 - Startup service audit to flag new or misconfigured services.
 - Whitelist/blacklist-driven unauthorized process detection, with path heuristics (Temp/AppData).
 - Structured alert log plus human-readable report (JSON + TXT).
-- Graceful fallbacks when WMI/pywin32 aren’t installed (process monitoring still works).
+- Graceful fallbacks when WMI/pywin32 are not installed (process monitoring still works).
 
 ## Quick Start (PowerShell)
 1. `python -m venv .venv`
@@ -21,7 +22,7 @@ Artifacts land in:
 - `reports/` – timestamped JSON and TXT summaries per sweep
 
 ## How Detection Works
-- **Parent–Child rules:** configurable pairs live in `src/config.py` under `SUSPICIOUS_PARENT_CHILD`. Any matching chain emits a high-severity alert.
+- **Parent-Child rules:** configurable pairs live in `src/config.py` under `SUSPICIOUS_PARENT_CHILD`. Any matching chain emits a high-severity alert.
 - **Unauthorized processes:** anything not on the whitelist or explicitly blacklisted, running from user-writable locations (Temp/AppData) is flagged.
 - **Startup services:** WMI service enumeration looks for new or odd file paths and services set to auto-start from non-system locations.
 
@@ -37,15 +38,15 @@ Every sweep writes two files in `reports/`:
 
 ## Limitations
 - Requires Windows with PowerShell and Python 3.9+.
-- Service auditing uses WMI; if `wmi`/`pywin32` aren’t available, the script skips that step but continues process monitoring.
+- Service auditing uses WMI; if `wmi`/`pywin32` are not available, the script skips that step but continues process monitoring.
 
 ## Project Structure
 - `src/config.py` – detection rules and defaults
-- `src/monitor.py` – main agent logic & CLI
+- `src/monitor.py` – main agent logic and CLI
 - `src/reporting.py` – logging and report writers
 - `requirements.txt` – Python dependencies
 
 ## Next Steps / Ideas
 - Add signature verification (Authenticode) to reduce false positives.
 - Emit Windows Event Log records for SIEM ingestion.
-- Add yara-based module scanning or ETW consumer for richer telemetry.
+- Add YARA-based module scanning or ETW consumer for richer telemetry.

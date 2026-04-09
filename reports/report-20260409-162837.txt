@@ -1,0 +1,784 @@
+Detection Report @ 20260409-162837Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 21.07s
+Alerts: 201
+
+[1] MEDIUM | unauthorized_process | unauthorized process: system idle process
+    process: system idle process (PID 0)
+
+[2] MEDIUM | unauthorized_process | unauthorized process: registry
+    process: registry (PID 184)
+    path: Registry
+
+[3] MEDIUM | unauthorized_process | unauthorized process: lsaiso.exe
+    process: lsaiso.exe (PID 1308)
+    path: C:\Windows\System32\LsaIso.exe
+
+[4] MEDIUM | unauthorized_process | unauthorized process: fontdrvhost.exe
+    process: fontdrvhost.exe (PID 1492)
+    path: C:\Windows\System32\fontdrvhost.exe
+
+[5] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 1568)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[6] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 1772)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[7] MEDIUM | unauthorized_process | unauthorized process: appprovisioningplugin.exe
+    process: appprovisioningplugin.exe (PID 1924)
+    path: C:\ProgramData\Lenovo\Udc\Hosts\x64\AppProvisioningPlugin.exe
+
+[8] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 2128)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[9] MEDIUM | unauthorized_process | unauthorized process: intelcphdcpsvc.exe
+    process: intelcphdcpsvc.exe (PID 2156)
+    path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b38f68fdfc88d52c\IntelCpHDCPSvc.exe
+
+[10] MEDIUM | unauthorized_process | unauthorized process: aggregatorhost.exe
+    process: aggregatorhost.exe (PID 2476)
+    path: C:\Windows\System32\AggregatorHost.exe
+
+[11] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 2552)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[12] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 2580)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[13] MEDIUM | unauthorized_process | unauthorized process: obsidian.exe
+    process: obsidian.exe (PID 2612)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Obsidian\Obsidian.exe
+
+[14] MEDIUM | unauthorized_process | unauthorized process: igfxcuiservicen.exe
+    process: igfxcuiservicen.exe (PID 2748)
+    path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_6673c5322430fc8a\igfxCUIServiceN.exe
+
+[15] MEDIUM | unauthorized_process | unauthorized process: nvdisplay.container.exe
+    process: nvdisplay.container.exe (PID 3032)
+    path: C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_56eae984f56a52e3\Display.NvContainer\NVDisplay.Container.exe
+
+[16] MEDIUM | unauthorized_process | unauthorized process: memcompression
+    process: memcompression (PID 3296)
+    path: MemCompression
+
+[17] HIGH | unauthorized_process | unauthorized process in user-writable path: rg.exe
+    process: rg.exe (PID 4352)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\41dd792b5e\resources\app\node_modules\@vscode\ripgrep\bin\rg.exe
+
+[18] MEDIUM | unauthorized_process | unauthorized process: wmiprvse.exe
+    process: wmiprvse.exe (PID 4380)
+    path: C:\Windows\System32\wbem\WmiPrvSE.exe
+
+[19] MEDIUM | unauthorized_process | unauthorized process: wlanext.exe
+    process: wlanext.exe (PID 4528)
+    path: C:\Windows\System32\wlanext.exe
+
+[20] MEDIUM | unauthorized_process | unauthorized process: oneapp.igcc.winservice.exe
+    process: oneapp.igcc.winservice.exe (PID 4532)
+    path: C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_a687edda40db3316\OneApp.IGCC.WinService.exe
+
+[21] MEDIUM | unauthorized_process | unauthorized process: lenovo.modern.imcontroller.exe
+    process: lenovo.modern.imcontroller.exe (PID 4552)
+    path: C:\Windows\Lenovo\ImController\Service\Lenovo.Modern.ImController.exe
+
+[22] MEDIUM | unauthorized_process | unauthorized process: esif_uf.exe
+    process: esif_uf.exe (PID 4560)
+    path: C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_897ea327b3fe52f7\esif_uf.exe
+
+[23] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 4604)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[24] MEDIUM | unauthorized_process | unauthorized process: intelaudioservice.exe
+    process: intelaudioservice.exe (PID 4632)
+    path: C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_6f0a892deb241071\AS\IAS\IntelAudioService.exe
+
+[25] MEDIUM | unauthorized_process | unauthorized process: jhi_service.exe
+    process: jhi_service.exe (PID 4656)
+    path: C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_64d7fcfcde9b9c10\jhi_service.exe
+
+[26] MEDIUM | unauthorized_process | unauthorized process: lenovoutilityservice.exe
+    process: lenovoutilityservice.exe (PID 4676)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\LenovoUtilityService.exe
+
+[27] MEDIUM | unauthorized_process | unauthorized process: lenovovantageservice.exe
+    process: lenovovantageservice.exe (PID 4696)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantageService.exe
+
+[28] MEDIUM | unauthorized_process | unauthorized process: obsidian.exe
+    process: obsidian.exe (PID 4720)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Obsidian\Obsidian.exe
+
+[29] MEDIUM | unauthorized_process | unauthorized process: nahimicservice.exe
+    process: nahimicservice.exe (PID 4748)
+    path: C:\Windows\System32\NahimicService.exe
+
+[30] MEDIUM | unauthorized_process | unauthorized process: mysqld.exe
+    process: mysqld.exe (PID 4756)
+    path: C:\Program Files\MYSQL\MySQL Server 8.0\bin\mysqld.exe
+
+[31] MEDIUM | unauthorized_process | unauthorized process: openvpnserv2.exe
+    process: openvpnserv2.exe (PID 4832)
+    path: C:\Program Files\OpenVPN\bin\openvpnserv2.exe
+
+[32] MEDIUM | unauthorized_process | unauthorized process: openvpnserv.exe
+    process: openvpnserv.exe (PID 4848)
+    path: C:\Program Files\OpenVPN\bin\openvpnserv.exe
+
+[33] MEDIUM | unauthorized_process | unauthorized process: rtkauduservice64.exe
+    process: rtkauduservice64.exe (PID 4928)
+    path: C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4401706d277a86e0\RtkAudUService64.exe
+
+[34] MEDIUM | unauthorized_process | unauthorized process: rstmwservice.exe
+    process: rstmwservice.exe (PID 4944)
+    path: C:\Windows\System32\DriverStore\FileRepository\iastorvd.inf_amd64_a5d1cbafba9d4a6c\RstMwService.exe
+
+[35] MEDIUM | unauthorized_process | unauthorized process: udclientservice.exe
+    process: udclientservice.exe (PID 4964)
+    path: C:\Windows\System32\drivers\Lenovo\udc\Service\UDClientService.exe
+
+[36] MEDIUM | unauthorized_process | unauthorized process: mpdefendercoreservice.exe
+    process: mpdefendercoreservice.exe (PID 4980)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\MpDefenderCoreService.exe
+
+[37] MEDIUM | unauthorized_process | unauthorized process: wmiregistrationservice.exe
+    process: wmiregistrationservice.exe (PID 5080)
+    path: C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe
+
+[38] MEDIUM | unauthorized_process | unauthorized process: msmpeng.exe
+    process: msmpeng.exe (PID 5108)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\MsMpEng.exe
+
+[39] MEDIUM | unauthorized_process | unauthorized process: mysqld.exe
+    process: mysqld.exe (PID 5268)
+    path: C:\Program Files\MYSQL\MySQL Server 8.0\bin\mysqld.exe
+
+[40] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 5400)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[41] MEDIUM | unauthorized_process | unauthorized process: servicehost.exe
+    process: servicehost.exe (PID 5904)
+    path: C:\Program Files\McAfee\WebAdvisor\servicehost.exe
+
+[42] MEDIUM | unauthorized_process | unauthorized process: nvdisplay.container.exe
+    process: nvdisplay.container.exe (PID 6280)
+    path: C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_56eae984f56a52e3\Display.NvContainer\NVDisplay.Container.exe
+
+[43] MEDIUM | unauthorized_process | unauthorized process: securityhealthservice.exe
+    process: securityhealthservice.exe (PID 6364)
+    path: C:\Windows\System32\SecurityHealthService.exe
+
+[44] MEDIUM | unauthorized_process | unauthorized process: officeclicktorun.exe
+    process: officeclicktorun.exe (PID 6556)
+    path: C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+
+[45] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 6912)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[46] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 7184)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[47] MEDIUM | unauthorized_process | unauthorized process: wudfhost.exe
+    process: wudfhost.exe (PID 7328)
+    path: C:\Windows\System32\WUDFHost.exe
+
+[48] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 7952)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[49] MEDIUM | unauthorized_process | unauthorized process: nissrv.exe
+    process: nissrv.exe (PID 8156)
+    path: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26020.6-0\NisSrv.exe
+
+[50] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(lenovoservicebridgeaddin).exe
+    process: lenovovantage-(lenovoservicebridgeaddin).exe (PID 8168)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(LenovoServiceBridgeAddin).exe
+
+[51] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 9300)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[52] MEDIUM | unauthorized_process | unauthorized process: pet.exe
+    process: pet.exe (PID 9868)
+    path: C:\Users\Jyoti\.vscode\extensions\ms-python.python-2026.5.2026032701-win32-x64\python-env-tools\bin\pet.exe
+
+[53] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 10316)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[54] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 10852)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[55] MEDIUM | unauthorized_process | unauthorized process: onedrive.sync.service.exe
+    process: onedrive.sync.service.exe (PID 11404)
+    path: C:\Program Files\Microsoft OneDrive\26.040.0301.0001\OneDrive.Sync.Service.exe
+
+[56] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 11692)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[57] MEDIUM | unauthorized_process | unauthorized process: fnhotkeyutility.exe
+    process: fnhotkeyutility.exe (PID 11916)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\FnHotkeyUtility.exe
+
+[58] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(lenovogamingsystemaddin).exe
+    process: lenovovantage-(lenovogamingsystemaddin).exe (PID 12300)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(LenovoGamingSystemAddin).exe
+
+[59] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(vantagecoreaddin).exe
+    process: lenovovantage-(vantagecoreaddin).exe (PID 12832)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(VantageCoreAddin).exe
+
+[60] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 13164)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[61] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 13540)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[62] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 13804)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[63] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 14916)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[64] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 15012)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[65] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 15536)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[66] MEDIUM | unauthorized_process | unauthorized process: messagingplugin.exe
+    process: messagingplugin.exe (PID 15584)
+    path: C:\ProgramData\Lenovo\Udc\Hosts\x64\MessagingPlugin.exe
+
+[67] MEDIUM | unauthorized_process | unauthorized process: wmiapsrv.exe
+    process: wmiapsrv.exe (PID 16916)
+    path: C:\Windows\System32\wbem\WmiApSrv.exe
+
+[68] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 18236)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[69] MEDIUM | unauthorized_process | unauthorized process: shellexperiencehost.exe
+    process: shellexperiencehost.exe (PID 18264)
+    path: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+
+[70] MEDIUM | unauthorized_process | unauthorized process: uihost.exe
+    process: uihost.exe (PID 18356)
+    path: C:\Program Files\McAfee\WebAdvisor\uihost.exe
+
+[71] MEDIUM | unauthorized_process | unauthorized process: searchindexer.exe
+    process: searchindexer.exe (PID 18928)
+    path: C:\Windows\System32\SearchIndexer.exe
+
+[72] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 19032)
+    path: C:\Users\Jyoti\OneDrive\Documents\project1\Windows-Service-Process-Monitoring-Agent\.venv\Scripts\python.exe
+
+[73] MEDIUM | unauthorized_process | unauthorized process: locator.exe
+    process: locator.exe (PID 19412)
+    path: C:\Windows\System32\Locator.exe
+
+[74] MEDIUM | unauthorized_process | unauthorized process: shellhost.exe
+    process: shellhost.exe (PID 19824)
+    path: C:\Windows\System32\ShellHost.exe
+
+[75] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 20040)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[76] MEDIUM | unauthorized_process | unauthorized process: nahimicnotifsys.exe
+    process: nahimicnotifsys.exe (PID 20092)
+    path: C:\Users\Jyoti\AppData\Local\NhNotifSys\nahimic\nahimicNotifSys.exe
+
+[77] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 20224)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[78] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 20636)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[79] MEDIUM | unauthorized_process | unauthorized process: nahimicsvc64.exe
+    process: nahimicsvc64.exe (PID 21120)
+    path: C:\Windows\System32\NahimicSvc64.exe
+
+[80] MEDIUM | unauthorized_process | unauthorized process: startmenuexperiencehost.exe
+    process: startmenuexperiencehost.exe (PID 22060)
+    path: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+
+[81] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 22384)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[82] MEDIUM | unauthorized_process | unauthorized process: castsrv.exe
+    process: castsrv.exe (PID 22396)
+    path: C:\Windows\System32\CastSrv.exe
+
+[83] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 22768)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[84] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 22944)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[85] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 23540)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[86] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 24528)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[87] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 24660)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[88] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 25048)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[89] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 25228)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[90] MEDIUM | unauthorized_process | unauthorized process: textinputhost.exe
+    process: textinputhost.exe (PID 25620)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+
+[91] MEDIUM | unauthorized_process | unauthorized process: onenotem.exe
+    process: onenotem.exe (PID 25840)
+    path: C:\Program Files\Microsoft Office\root\Office16\ONENOTEM.EXE
+
+[92] MEDIUM | unauthorized_process | unauthorized process: backgroundtaskhost.exe
+    process: backgroundtaskhost.exe (PID 25924)
+    path: C:\Windows\System32\backgroundTaskHost.exe
+
+[93] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 25936)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[94] MEDIUM | unauthorized_process | unauthorized process: dllhost.exe
+    process: dllhost.exe (PID 26448)
+    path: C:\Windows\System32\dllhost.exe
+
+[95] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 26736)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[96] MEDIUM | unauthorized_process | unauthorized process: windowsterminal.exe
+    process: windowsterminal.exe (PID 26856)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe
+
+[97] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 26932)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[98] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 27212)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[99] MEDIUM | unauthorized_process | unauthorized process: widgetservice.exe
+    process: widgetservice.exe (PID 27528)
+    path: C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe
+
+[100] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 27636)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[101] MEDIUM | unauthorized_process | unauthorized process: fnhotkeycapslknumlk.exe
+    process: fnhotkeycapslknumlk.exe (PID 27760)
+    path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\FnHotkeyCapsLKNumLK.exe
+
+[102] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 27852)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[103] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 27944)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[104] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 27988)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[105] MEDIUM | unauthorized_process | unauthorized process: nahimicsvc32.exe
+    process: nahimicsvc32.exe (PID 28420)
+    path: C:\Windows\SysWOW64\NahimicSvc32.exe
+
+[106] MEDIUM | unauthorized_process | unauthorized process: applicationframehost.exe
+    process: applicationframehost.exe (PID 29208)
+    path: C:\Windows\System32\ApplicationFrameHost.exe
+
+[107] MEDIUM | unauthorized_process | unauthorized process: phoneexperiencehost.exe
+    process: phoneexperiencehost.exe (PID 29220)
+    path: C:\Program Files\WindowsApps\Microsoft.YourPhone_1.26012.101.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
+
+[108] MEDIUM | unauthorized_process | unauthorized process: ctfmon.exe
+    process: ctfmon.exe (PID 29640)
+    path: C:\Windows\System32\ctfmon.exe
+
+[109] MEDIUM | unauthorized_process | unauthorized process: igfxemn.exe
+    process: igfxemn.exe (PID 29808)
+    path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_6673c5322430fc8a\igfxEMN.exe
+
+[110] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 29972)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[111] MEDIUM | unauthorized_process | unauthorized process: lockapp.exe
+    process: lockapp.exe (PID 30016)
+    path: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+
+[112] MEDIUM | unauthorized_process | unauthorized process: wmiprvse.exe
+    process: wmiprvse.exe (PID 30812)
+    path: C:\Windows\System32\wbem\WmiPrvSE.exe
+
+[113] MEDIUM | unauthorized_process | unauthorized process: whatsapp.root.exe
+    process: whatsapp.root.exe (PID 31044)
+    path: C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2607.106.0_x64__cv1g1gvanyjgm\WhatsApp.Root.exe
+
+[114] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 31152)
+    path: C:\ProgramData\anaconda3\python.exe
+
+[115] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 31840)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[116] MEDIUM | unauthorized_process | unauthorized process: dllhost.exe
+    process: dllhost.exe (PID 31876)
+    path: C:\Windows\System32\dllhost.exe
+
+[117] MEDIUM | unauthorized_process | unauthorized process: backgroundtaskhost.exe
+    process: backgroundtaskhost.exe (PID 32128)
+    path: C:\Windows\System32\backgroundTaskHost.exe
+
+[118] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 32440)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[119] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 32528)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[120] MEDIUM | unauthorized_process | unauthorized process: time.exe
+    process: time.exe (PID 33208)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe\Time.exe
+
+[121] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 34396)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[122] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 34620)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[123] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 34768)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[124] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 34892)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[125] MEDIUM | unauthorized_process | unauthorized process: widgetboard.exe
+    process: widgetboard.exe (PID 35252)
+    path: C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\WidgetBoard.exe
+
+[126] MEDIUM | unauthorized_process | unauthorized process: crossdeviceresume.exe
+    process: crossdeviceresume.exe (PID 35576)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe
+
+[127] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 36616)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[128] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 36772)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[129] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 37532)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[130] MEDIUM | unauthorized_process | unauthorized process: unsecapp.exe
+    process: unsecapp.exe (PID 37568)
+    path: C:\Windows\System32\wbem\unsecapp.exe
+
+[131] MEDIUM | unauthorized_process | unauthorized process: sihost.exe
+    process: sihost.exe (PID 37812)
+    path: C:\Windows\System32\sihost.exe
+
+[132] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 38200)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[133] MEDIUM | unauthorized_process | unauthorized process: systemsettings.exe
+    process: systemsettings.exe (PID 38688)
+    path: C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+
+[134] MEDIUM | unauthorized_process | unauthorized process: sdxhelper.exe
+    process: sdxhelper.exe (PID 38876)
+    path: C:\Program Files\Microsoft Office\root\Office16\SDXHelper.exe
+
+[135] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 39084)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[136] MEDIUM | unauthorized_process | unauthorized process: lenovovantage-(genericmessagingaddin).exe
+    process: lenovovantage-(genericmessagingaddin).exe (PID 40920)
+    path: C:\Program Files (x86)\Lenovo\VantageService\4.2601.21.0\LenovoVantage-(GenericMessagingAddin).exe
+
+[137] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 41676)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[138] MEDIUM | unauthorized_process | unauthorized process: obsidian.exe
+    process: obsidian.exe (PID 41808)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Obsidian\Obsidian.exe
+
+[139] MEDIUM | unauthorized_process | unauthorized process: microsoftstartfeedprovider.exe
+    process: microsoftstartfeedprovider.exe (PID 42532)
+    path: C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.241.0.0_x64__8wekyb3d8bbwe\MicrosoftStartFeedProvider\MicrosoftStartFeedProvider.exe
+
+[140] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 43368)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[141] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 43460)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[142] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 43608)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[143] MEDIUM | unauthorized_process | unauthorized process: batterywidgethost.exe
+    process: batterywidgethost.exe (PID 43628)
+    path: C:\ProgramData\Lenovo\Vantage\Addins\BatteryWidgetAddin\3.0.0.191\BatteryWidgetHost\BatteryWidgetHost.exe
+
+[144] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 43672)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[145] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 44604)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[146] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 44888)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\resources\codex.exe
+
+[147] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 44908)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[148] MEDIUM | unauthorized_process | unauthorized process: obsidian.exe
+    process: obsidian.exe (PID 45932)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Obsidian\Obsidian.exe
+
+[149] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 45984)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[150] MEDIUM | unauthorized_process | unauthorized process: crossdeviceservice.exe
+    process: crossdeviceservice.exe (PID 46968)
+    path: C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.26012.79.0_x64__cw5n1h2txyewy\CrossDeviceService.exe
+
+[151] MEDIUM | unauthorized_process | unauthorized process: chrome.exe
+    process: chrome.exe (PID 46980)
+    path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[152] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 47804)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[153] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 48720)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[154] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 50044)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[155] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 50588)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[156] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 50748)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[157] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 50880)
+    path: C:\Program Files\Git\cmd\git.exe
+
+[158] MEDIUM | unauthorized_process | unauthorized process: python.exe
+    process: python.exe (PID 52120)
+    path: C:\Users\Jyoti\AppData\Local\Programs\Python\Python312\python.exe
+
+[159] MEDIUM | unauthorized_process | unauthorized process: powershell.exe
+    process: powershell.exe (PID 52408)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[160] MEDIUM | unauthorized_process | unauthorized process: git.exe
+    process: git.exe (PID 53032)
+    path: C:\Program Files\Git\mingw64\bin\git.exe
+
+[161] MEDIUM | unauthorized_process | unauthorized process: fontdrvhost.exe
+    process: fontdrvhost.exe (PID 53292)
+    path: C:\Windows\System32\fontdrvhost.exe
+
+[162] MEDIUM | unauthorized_process | unauthorized process: openvpn-gui.exe
+    process: openvpn-gui.exe (PID 53480)
+    path: C:\Program Files\OpenVPN\bin\openvpn-gui.exe
+
+[163] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 53616)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[164] MEDIUM | unauthorized_process | unauthorized process: copilot.exe
+    process: copilot.exe (PID 54116)
+    path: C:\Program Files\WindowsApps\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe\Copilot.exe
+
+[165] MEDIUM | unauthorized_process | unauthorized process: searchhost.exe
+    process: searchhost.exe (PID 54224)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+
+[166] MEDIUM | unauthorized_process | unauthorized process: nahimic3.exe
+    process: nahimic3.exe (PID 54232)
+    path: C:\Program Files\WindowsApps\A-Volute.Nahimic_1.10.9.0_x64__w2gh52qy24etm\Nahimic3.exe
+
+[167] MEDIUM | unauthorized_process | unauthorized process: useroobebroker.exe
+    process: useroobebroker.exe (PID 54816)
+    path: C:\Windows\System32\oobe\UserOOBEBroker.exe
+
+[168] MEDIUM | unauthorized_process | unauthorized process: msedgewebview2.exe
+    process: msedgewebview2.exe (PID 55176)
+    path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\146.0.3856.109\msedgewebview2.exe
+
+[169] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 55276)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[170] MEDIUM | unauthorized_process | unauthorized process: appactions.exe
+    process: appactions.exe (PID 55528)
+    path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe
+
+[171] MEDIUM | unauthorized_process | unauthorized process: lenovo.modern.imcontroller.pluginhost.device.exe
+    process: lenovo.modern.imcontroller.pluginhost.device.exe (PID 56256)
+    path: C:\Windows\Lenovo\ImController\PluginHost86\Lenovo.Modern.ImController.PluginHost.Device.exe
+
+[172] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 56508)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[173] HIGH | unauthorized_process | unauthorized process in user-writable path: code.exe
+    process: code.exe (PID 56924)
+    path: C:\Users\Jyoti\Downloads\Microsoft VS Code\Code.exe
+
+[174] MEDIUM | unauthorized_process | unauthorized process: openconsole.exe
+    process: openconsole.exe (PID 57084)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8bbwe\OpenConsole.exe
+
+[175] MEDIUM | unauthorized_process | unauthorized process: backgroundtaskhost.exe
+    process: backgroundtaskhost.exe (PID 57192)
+    path: C:\Windows\System32\backgroundTaskHost.exe
+
+[176] MEDIUM | unauthorized_process | unauthorized process: chatgpt.exe
+    process: chatgpt.exe (PID 57812)
+    path: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.43.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe
+
+[177] HIGH | service_modified | Service changed (path): Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+    details: path='"c:\program files (x86)\microsoft\edge\application\146.0.3856.109\elevation_service.exe"', start_mode='manual'
+
+[178] MEDIUM | service_new | New service detected since baseline: Agent Activation Runtime_5b4972c5
+    details: c:\windows\system32\svchost.exe -k aarsvcgroup -p
+
+[179] MEDIUM | service_new | New service detected since baseline: GameDVR and Broadcast User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k bcastdvruserservice
+
+[180] MEDIUM | service_new | New service detected since baseline: Bluetooth User Support Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k bthappgroup -p
+
+[181] MEDIUM | service_new | New service detected since baseline: CaptureService_5b4972c5
+    details: c:\windows\system32\svchost.exe -k localservice -p
+
+[182] MEDIUM | service_new | New service detected since baseline: Clipboard User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k clipboardsvcgroup -p
+
+[183] MEDIUM | service_new | New service detected since baseline: Connected Devices Platform User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[184] MEDIUM | service_new | New service detected since baseline: Cloud Backup and Restore Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[185] MEDIUM | service_new | New service detected since baseline: ConsentUX User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k devicesflow
+
+[186] MEDIUM | service_new | New service detected since baseline: CredentialEnrollmentManagerUserSvc_5b4972c5
+    details: c:\windows\system32\credentialenrollmentmanager.exe
+
+[187] MEDIUM | service_new | New service detected since baseline: DeviceAssociationBroker_5b4972c5
+    details: c:\windows\system32\svchost.exe -k devicesflow -p
+
+[188] MEDIUM | service_new | New service detected since baseline: DevicePicker_5b4972c5
+    details: c:\windows\system32\svchost.exe -k devicesflow
+
+[189] MEDIUM | service_new | New service detected since baseline: DevicesFlow_5b4972c5
+    details: c:\windows\system32\svchost.exe -k devicesflow
+
+[190] MEDIUM | service_new | New service detected since baseline: MessagingService_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[191] MEDIUM | service_new | New service detected since baseline: Now Playing Session Manager Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k localservice -p
+
+[192] MEDIUM | service_new | New service detected since baseline: Sync Host_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[193] MEDIUM | service_new | New service detected since baseline: P9RdrService_5b4972c5
+    details: c:\windows\system32\svchost.exe -k p9rdrservice -p
+
+[194] MEDIUM | service_new | New service detected since baseline: PenService_5b4972c5
+    details: c:\windows\system32\svchost.exe -k penservice
+
+[195] MEDIUM | service_new | New service detected since baseline: Contact Data_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[196] MEDIUM | service_new | New service detected since baseline: PrintWorkflow_5b4972c5
+    details: c:\windows\system32\svchost.exe -k printworkflow
+
+[197] MEDIUM | service_new | New service detected since baseline: Udk User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k udksvcgroup
+
+[198] MEDIUM | service_new | New service detected since baseline: User Data Storage_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[199] MEDIUM | service_new | New service detected since baseline: User Data Access_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup
+
+[200] MEDIUM | service_new | New service detected since baseline: Web Threat Defense User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k localsystemnetworkrestricted -p
+
+[201] MEDIUM | service_new | New service detected since baseline: Windows Push Notifications User Service_5b4972c5
+    details: c:\windows\system32\svchost.exe -k unistacksvcgroup

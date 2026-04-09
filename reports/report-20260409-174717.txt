@@ -1,0 +1,37 @@
+Detection Report @ 20260409-174717Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 10.45s
+Alerts: 5
+By severity: critical=0 high=1 medium=0 low=4
+Processes scanned: 319
+
+[1] HIGH | parent_child | Suspicious child process: winword.exe -> powershell.exe
+    process: powershell.exe (PID 29468)
+    parent: winword.exe (PID 12572)
+    path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+[2] LOW | unauthorized_process | unauthorized process in system/program files path: ai.exe
+    process: ai.exe (PID 4392)
+    parent: winword.exe (PID 12572)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\ai.exe
+    reason: unauthorized process in system/program files path
+
+[3] LOW | unauthorized_process | unauthorized process in system/program files path: aimgr.exe
+    process: aimgr.exe (PID 16032)
+    parent: onenote.exe (PID 17236)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\aimgr.exe
+    reason: unauthorized process in system/program files path
+
+[4] LOW | unauthorized_process | unauthorized process in system/program files path: ai.exe
+    process: ai.exe (PID 32940)
+    parent: powerpnt.exe (PID 48412)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\ai.exe
+    reason: unauthorized process in system/program files path
+
+[5] LOW | unauthorized_process | unauthorized process in system/program files path: filecoauth.exe
+    process: filecoauth.exe (PID 37612)
+    parent: svchost.exe (PID 1456)
+    path: C:\Program Files\Microsoft OneDrive\26.040.0301.0001\FileCoAuth.exe
+    reason: unauthorized process in system/program files path

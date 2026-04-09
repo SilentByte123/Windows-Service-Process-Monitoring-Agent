@@ -4,7 +4,7 @@ import json
 import platform
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -47,7 +47,7 @@ def detect_parent_child(processes: list[dict[str, Any]]) -> list[dict[str, Any]]
                     "parent": f"{parent_name} (PID {parent.get('pid')})",
                     "process": f"{child_name} (PID {child.get('pid')})",
                     "path": child.get("exe"),
-                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
     return alerts
@@ -57,6 +57,7 @@ def detect_unauthorized(
     processes: list[dict[str, Any]], whitelist: set[str], blacklist: set[str]
 ) -> list[dict[str, Any]]:
     alerts: list[dict[str, Any]] = []
+    by_pid = {p["pid"]: p for p in processes}
     for proc in processes:
         name = proc.get("name") or ""
         exe = (proc.get("exe") or "").lower()
@@ -70,7 +71,8 @@ def detect_unauthorized(
                     "summary": f"Blacklisted process running: {name}",
                     "process": f"{name} (PID {proc.get('pid')})",
                     "path": proc.get("exe"),
-                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "reason": "process name in blacklist",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
             continue
@@ -79,8 +81,24 @@ def detect_unauthorized(
             continue
 
         path_flag = any(keyword in exe for keyword in cfg.USER_WRITABLE_DIR_KEYWORDS)
-        severity = "high" if path_flag else "medium"
-        reason = "unauthorized process in user-writable path" if path_flag else "unauthorized process"
+        system_path_flag = exe.startswith("c:\\windows\\") or exe.startswith("c:\\program files")
+        suspicious_name = any(name == pat for pat in cfg.SUSPICIOUS_NAME_PATTERNS)
+
+        parent = by_pid.get(proc.get("ppid"))
+        parent_name = (parent.get("name") or "") if parent else ""
+
+        if suspicious_name:
+            severity = "high"
+            reason = "lookalike/suspicious process name"
+        elif path_flag:
+            severity = "high"
+            reason = "unauthorized process in user-writable path"
+        elif system_path_flag:
+            severity = "low"
+            reason = "unauthorized process in system/program files path"
+        else:
+            severity = "medium"
+            reason = "unauthorized process"
         alerts.append(
             {
                 "type": "unauthorized_process",
@@ -88,41 +106,62 @@ def detect_unauthorized(
                 "summary": f"{reason}: {name}",
                 "process": f"{name} (PID {proc.get('pid')})",
                 "path": proc.get("exe"),
-                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "parent": f"{parent_name} (PID {parent.get('pid')})" if parent else None,
+                "reason": reason,
+                "timestamp": datetime.now(timezone.utc).isoformat(),
             }
         )
     return alerts
 
 
 def collect_services() -> tuple[list[dict[str, Any]], str | None]:
-    """Return list of services with basic metadata. Requires WMI."""
+    """Return list of services with basic metadata. Uses WMI, falls back to psutil."""
+    # Try WMI first (richer data on Windows)
     try:
         import wmi  # type: ignore
-    except Exception as exc:  # pragma: no cover - optional dependency
-        return [], f"Service audit skipped (wmi not available: {exc})"
 
-    c = wmi.WMI()
-    try:
+        c = wmi.WMI()
         services = c.Win32_Service()
-    except Exception as exc:  # pragma: no cover
-        return [], f"Service audit skipped (Win32_Service error: {exc})"
+        svc_list: list[dict[str, Any]] = []
+        for svc in services:
+            try:
+                svc_list.append(
+                    {
+                        "name": (svc.Name or "").lower(),
+                        "display": (svc.DisplayName or svc.Name or "").strip(),
+                        "path": (svc.PathName or "").lower(),
+                        "start_mode": (svc.StartMode or "").lower(),
+                        "state": (svc.State or "").lower(),
+                    }
+                )
+            except Exception:
+                continue
+        return svc_list, None
+    except Exception:
+        pass  # fall through to psutil
 
+    # Fallback: psutil service iterator (may miss some fields but avoids hard fail)
     svc_list: list[dict[str, Any]] = []
-    for svc in services:
-        try:
-            svc_list.append(
-                {
-                    "name": (svc.Name or "").lower(),
-                    "display": (svc.DisplayName or svc.Name or "").strip(),
-                    "path": (svc.PathName or "").lower(),
-                    "start_mode": (svc.StartMode or "").lower(),
-                    "state": (svc.State or "").lower(),
-                }
-            )
-        except Exception:
-            continue
-
-    return svc_list, None
+    try:
+        for svc in psutil.win_service_iter():  # type: ignore[attr-defined]
+            try:
+                info = svc.as_dict()
+                svc_list.append(
+                    {
+                        "name": (info.get("name") or "").lower(),
+                        "display": (info.get("display_name") or info.get("name") or "").strip(),
+                        "path": (info.get("binpath") or "").lower(),
+                        "start_mode": (info.get("start_type") or "").lower(),
+                        "state": (info.get("status") or "").lower(),
+                    }
+                )
+            except Exception:
+                continue
+        if not svc_list:
+            return [], "Service audit skipped (psutil returned no services)"
+        return svc_list, None
+    except Exception as exc:  # pragma: no cover
+        return [], f"Service audit skipped (no provider available: {exc})"
 
 
 def detect_service_anomalies(services: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -137,7 +176,7 @@ def detect_service_anomalies(services: list[dict[str, Any]]) -> list[dict[str, A
                     "severity": "high",
                     "summary": f"Auto-start service from unusual path: {svc.get('display') or svc.get('name')}",
                     "details": svc.get("path"),
-                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
     return alerts
@@ -184,7 +223,7 @@ def detect_service_drift(
                     "severity": "medium",
                     "summary": f"New service detected since baseline: {svc.get('display') or name}",
                     "details": svc.get("path"),
-                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
             continue
@@ -203,7 +242,7 @@ def detect_service_drift(
                     "severity": "high",
                     "summary": f"Service changed ({', '.join(reason)}): {svc.get('display') or name}",
                     "details": f"path='{svc.get('path')}', start_mode='{svc.get('start_mode')}'",
-                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
     return alerts

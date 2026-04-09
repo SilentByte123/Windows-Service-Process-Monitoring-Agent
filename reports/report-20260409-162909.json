@@ -1,0 +1,54 @@
+{
+  "generated_utc": "20260409-162909",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 18.45,
+    "process_count": 308,
+    "alerts": 5
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: wmiregistrationservice.exe",
+      "process": "wmiregistrationservice.exe (PID 5080)",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\WMIRegistrationService.exe",
+      "timestamp": "2026-04-09T16:28:58.572950Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: messagingplugin.exe",
+      "process": "messagingplugin.exe (PID 15584)",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\MessagingPlugin.exe",
+      "timestamp": "2026-04-09T16:28:58.572950Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: dllhost.exe",
+      "process": "dllhost.exe (PID 26448)",
+      "path": "C:\\Windows\\System32\\dllhost.exe",
+      "timestamp": "2026-04-09T16:28:58.572950Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: dllhost.exe",
+      "process": "dllhost.exe (PID 31876)",
+      "path": "C:\\Windows\\System32\\dllhost.exe",
+      "timestamp": "2026-04-09T16:28:58.572950Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: sdxhelper.exe",
+      "process": "sdxhelper.exe (PID 38876)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\SDXHelper.exe",
+      "timestamp": "2026-04-09T16:28:58.572950Z"
+    }
+  ]
+}

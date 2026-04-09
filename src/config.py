@@ -9,11 +9,19 @@ DEFAULT_WHITELIST = {
     "system","smss.exe","csrss.exe","wininit.exe","services.exe","lsass.exe","lsm.exe",
     "svchost.exe","winlogon.exe","explorer.exe","spoolsv.exe","taskhostw.exe","dwm.exe",
     "audiodg.exe","searchui.exe","runtimebroker.exe","conhost.exe",
+    # Common desktop apps (reduce false positives)
+    "winword.exe","onenote.exe","powerpnt.exe","notepad.exe","wordpad.exe",
+    "code.exe","chrome.exe","msedgewebview2.exe",
 }
 
 DEFAULT_BLACKLIST = {
     "mimikatz.exe","procdump.exe","psexec.exe","nc.exe","netcat.exe","cobaltstrike.exe","meterpreter.exe",
 }
+
+# Common lookalike or high-risk names (exact match)
+SUSPICIOUS_NAME_PATTERNS = [
+    "svch0st.exe","expl0rer.exe","lsaas.exe","powershe11.exe","cmdl.exe","m1crosoftupdate.exe",
+]
 
 SUSPICIOUS_PARENT_CHILD = {
     "winword.exe": ["cmd.exe","powershell.exe","wscript.exe","cscript.exe","mshta.exe"],

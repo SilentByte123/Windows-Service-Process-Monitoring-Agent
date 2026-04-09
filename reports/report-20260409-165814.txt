@@ -1,0 +1,30 @@
+Detection Report @ 20260409-165814Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 11.79s
+Alerts: 6
+
+[1] MEDIUM | unauthorized_process | unauthorized process: aimgr.exe
+    process: aimgr.exe (PID 16032)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\aimgr.exe
+
+[2] MEDIUM | unauthorized_process | unauthorized process: onenote.exe
+    process: onenote.exe (PID 17236)
+    path: C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE
+
+[3] MEDIUM | unauthorized_process | unauthorized process: ai.exe
+    process: ai.exe (PID 32940)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\ai.exe
+
+[4] MEDIUM | unauthorized_process | unauthorized process: filecoauth.exe
+    process: filecoauth.exe (PID 37612)
+    path: C:\Program Files\Microsoft OneDrive\26.040.0301.0001\FileCoAuth.exe
+
+[5] MEDIUM | unauthorized_process | unauthorized process: notepad.exe
+    process: notepad.exe (PID 39892)
+    path: C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2512.26.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe
+
+[6] MEDIUM | unauthorized_process | unauthorized process: powerpnt.exe
+    process: powerpnt.exe (PID 48412)
+    path: C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE

@@ -1,0 +1,54 @@
+{
+  "generated_utc": "20260409-173638",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 13.71,
+    "process_count": 321,
+    "alerts": 4
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "low",
+      "summary": "unauthorized process in system/program files path: ai.exe",
+      "process": "ai.exe (PID 4392)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\ai.exe",
+      "parent": "winword.exe (PID 12572)",
+      "reason": "unauthorized process in system/program files path",
+      "timestamp": "2026-04-09T17:36:31.530421+00:00"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "low",
+      "summary": "unauthorized process in system/program files path: aimgr.exe",
+      "process": "aimgr.exe (PID 16032)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe",
+      "parent": "onenote.exe (PID 17236)",
+      "reason": "unauthorized process in system/program files path",
+      "timestamp": "2026-04-09T17:36:31.530421+00:00"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "low",
+      "summary": "unauthorized process in system/program files path: ai.exe",
+      "process": "ai.exe (PID 32940)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\ai.exe",
+      "parent": "powerpnt.exe (PID 48412)",
+      "reason": "unauthorized process in system/program files path",
+      "timestamp": "2026-04-09T17:36:31.530421+00:00"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "low",
+      "summary": "unauthorized process in system/program files path: filecoauth.exe",
+      "process": "filecoauth.exe (PID 37612)",
+      "path": "C:\\Program Files\\Microsoft OneDrive\\26.040.0301.0001\\FileCoAuth.exe",
+      "parent": "svchost.exe (PID 1456)",
+      "reason": "unauthorized process in system/program files path",
+      "timestamp": "2026-04-09T17:36:31.530421+00:00"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "generated_utc": "20260409-165814",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 11.79,
+    "process_count": 327,
+    "alerts": 6
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: aimgr.exe",
+      "process": "aimgr.exe (PID 16032)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: onenote.exe",
+      "process": "onenote.exe (PID 17236)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTE.EXE",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: ai.exe",
+      "process": "ai.exe (PID 32940)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\ai.exe",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: filecoauth.exe",
+      "process": "filecoauth.exe (PID 37612)",
+      "path": "C:\\Program Files\\Microsoft OneDrive\\26.040.0301.0001\\FileCoAuth.exe",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: notepad.exe",
+      "process": "notepad.exe (PID 39892)",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2512.26.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: powerpnt.exe",
+      "process": "powerpnt.exe (PID 48412)",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+      "timestamp": "2026-04-09T16:58:07.820757Z"
+    }
+  ]
+}

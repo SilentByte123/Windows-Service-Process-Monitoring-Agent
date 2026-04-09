@@ -1,0 +1,24 @@
+Detection Report @ 20260409-172905Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 12.16s
+Alerts: 4
+By severity: critical=0 high=0 medium=0 low=4
+Processes scanned: 322
+
+[1] LOW | unauthorized_process | unauthorized process in system/program files path: ai.exe
+    process: ai.exe (PID 4392)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\ai.exe
+
+[2] LOW | unauthorized_process | unauthorized process in system/program files path: aimgr.exe
+    process: aimgr.exe (PID 16032)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\aimgr.exe
+
+[3] LOW | unauthorized_process | unauthorized process in system/program files path: ai.exe
+    process: ai.exe (PID 32940)
+    path: C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\AI\ai.exe
+
+[4] LOW | unauthorized_process | unauthorized process in system/program files path: filecoauth.exe
+    process: filecoauth.exe (PID 37612)
+    path: C:\Program Files\Microsoft OneDrive\26.040.0301.0001\FileCoAuth.exe

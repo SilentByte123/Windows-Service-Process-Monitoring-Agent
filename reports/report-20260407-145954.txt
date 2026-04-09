@@ -1,0 +1,38 @@
+Detection Report @ 20260407-145954Z
+------------------------------------------------------------
+Host: SilentByte
+User: Jyoti
+Sweep duration: 10.98s
+Alerts: 8
+
+[1] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 1220)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[2] MEDIUM | unauthorized_process | unauthorized process: openvpnserv.exe
+    process: openvpnserv.exe (PID 4848)
+    path: C:\Program Files\OpenVPN\bin\openvpnserv.exe
+
+[3] MEDIUM | unauthorized_process | unauthorized process: castsrv.exe
+    process: castsrv.exe (PID 7052)
+    path: C:\Windows\System32\CastSrv.exe
+
+[4] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 13460)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\resources\codex.exe
+
+[5] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 16568)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[6] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 19940)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[7] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 21544)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe
+
+[8] MEDIUM | unauthorized_process | unauthorized process: codex.exe
+    process: codex.exe (PID 24004)
+    path: C:\Program Files\WindowsApps\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\app\Codex.exe

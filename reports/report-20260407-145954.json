@@ -1,0 +1,78 @@
+{
+  "generated_utc": "20260407-145954",
+  "metadata": {
+    "hostname": "SilentByte",
+    "username": "Jyoti",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.3",
+    "duration_seconds": 10.98,
+    "process_count": 307,
+    "alerts": 8
+  },
+  "alerts": [
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 1220)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: openvpnserv.exe",
+      "process": "openvpnserv.exe (PID 4848)",
+      "path": "C:\\Program Files\\OpenVPN\\bin\\openvpnserv.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: castsrv.exe",
+      "process": "castsrv.exe (PID 7052)",
+      "path": "C:\\Windows\\System32\\CastSrv.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 13460)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 16568)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 19940)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 21544)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    },
+    {
+      "type": "unauthorized_process",
+      "severity": "medium",
+      "summary": "unauthorized process: codex.exe",
+      "process": "codex.exe (PID 24004)",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.325.3894.0_x64__2p2nqsd0c76g0\\app\\Codex.exe",
+      "timestamp": "2026-04-07T14:59:47.002478Z"
+    }
+  ]
+}

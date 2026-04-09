@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "windows-service-process-monitoring-agent"
+version = "0.1.0"
+description = "Windows Service & Process Monitoring Agent for detecting suspicious processes and services."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "psutil>=5.9",
+    "wmi>=1.5.1",
+    "pywin32>=306",
+    "colorama>=0.4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["src"]
