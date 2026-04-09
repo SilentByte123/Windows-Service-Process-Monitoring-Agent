@@ -15,6 +15,13 @@ import src.config as cfg
 from src.reporting import format_alerts_for_console, setup_logging, write_reports
 
 
+def base_dir() -> Path:
+    """Return directory to use for default artifacts (works in PyInstaller)."""
+    if hasattr(sys, "_MEIPASS"):  # PyInstaller temp extract dir
+        return Path(sys._MEIPASS)  # type: ignore[attr-defined]
+    return Path(__file__).resolve().parent
+
+
 def process_snapshot() -> list[dict[str, Any]]:
     snapshot: list[dict[str, Any]] = []
     for proc in psutil.process_iter(
@@ -317,10 +324,19 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Windows Service & Process Monitoring Agent")
     parser.add_argument("--interval", type=int, default=10, help="Seconds between sweeps (ignored with --once)")
     parser.add_argument("--once", action="store_true", help="Run a single sweep and exit")
-    parser.add_argument("--whitelist", type=Path, help="Path to additional whitelist file (one name per line)")
+    parser.add_argument(
+        "--whitelist",
+        type=Path,
+        default=base_dir() / "whitelist.txt",
+        help="Path to additional whitelist file (one name per line)",
+    )
     parser.add_argument("--blacklist", type=Path, help="Path to additional blacklist file (one name per line)")
-    parser.add_argument("--log-dir", type=Path, default=Path("logs"), help="Directory for detection.log")
-    parser.add_argument("--report-dir", type=Path, default=Path("reports"), help="Directory for sweep reports")
+    parser.add_argument(
+        "--log-dir", type=Path, default=base_dir() / "logs", help="Directory for detection.log"
+    )
+    parser.add_argument(
+        "--report-dir", type=Path, default=base_dir() / "reports", help="Directory for sweep reports"
+    )
     parser.add_argument("--no-services", action="store_true", help="Skip startup/service audit")
     parser.add_argument(
         "--use-baseline",
@@ -330,7 +346,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--baseline-file",
         type=Path,
-        default=Path("state") / "service_baseline.json",
+        default=base_dir() / "state" / "service_baseline.json",
         help="Path to service baseline JSON (used with --use-baseline)",
     )
     parser.add_argument(

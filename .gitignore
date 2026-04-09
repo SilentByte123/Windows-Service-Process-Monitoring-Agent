@@ -11,6 +11,9 @@ logs/
 reports/
 outputs/
 state/service_baseline.json
+build/
+dist/
+*.spec
 
 # Distribution metadata
 *.egg-info/
