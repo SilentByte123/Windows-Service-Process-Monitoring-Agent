@@ -1,0 +1,22 @@
+# Virtual envs
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and generated reports
+logs/
+reports/
+outputs/
+state/service_baseline.json
+
+# Distribution metadata
+*.egg-info/
+
+# OS / editor
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/
